@@ -215,6 +215,11 @@ def get_data():
 				},
 				{
 					"type": "doctype",
+					"name": "Job Posting",
+					"onboard": 1,
+				},
+				{
+					"type": "doctype",
 					"name": "Training Program"
 				},
 				{
