@@ -103,7 +103,7 @@ class DeliveryNote(SellingController):
 		self.set_status()
 		self.so_required()
 		self.validate_proj_cust()
-		self.check_close_sales_order("against_sales_order")
+		self.check_sales_order_on_hold_or_close("against_sales_order")
 		self.validate_for_items()
 		self.validate_warehouse()
 		self.validate_uom_is_integer("stock_uom", "stock_qty")
@@ -177,6 +177,9 @@ class DeliveryNote(SellingController):
 					frappe.msgprint(_("Note: Item {0} entered multiple times").format(d.item_code))
 				else:
 					chk_dupl_itm.append(f)
+			#Customer Provided parts will have zero valuation rate
+			if frappe.db.get_value('Item', d.item_code, 'is_customer_provided_item'):
+				d.allow_zero_valuation_rate = 1
 
 	def validate_warehouse(self):
 		super(DeliveryNote, self).validate_warehouse()
@@ -220,7 +223,9 @@ class DeliveryNote(SellingController):
 		self.make_gl_entries()
 
 	def on_cancel(self):
-		self.check_close_sales_order("against_sales_order")
+		super(DeliveryNote, self).on_cancel()
+
+		self.check_sales_order_on_hold_or_close("against_sales_order")
 		self.check_next_docstatus()
 
 		self.update_prevdoc_status()

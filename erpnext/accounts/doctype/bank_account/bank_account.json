@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
  "allow_copy": 0,
  "allow_events_in_timeline": 0,
  "allow_guest_to_view": 0,
@@ -27,10 +28,46 @@
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_filter": 0,
+=======
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:account_name",
+ "creation": "2017-05-29 21:35:13.136357",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "account_name",
+  "account",
+  "bank",
+  "is_company_account",
+  "company",
+  "column_break_7",
+  "is_default",
+  "bank_account_no",
+  "iban",
+  "branch_code",
+  "swift_number",
+  "section_break_11",
+  "party_type",
+  "column_break_14",
+  "party",
+  "address_and_contact",
+  "address_html",
+  "website",
+  "column_break_12",
+  "contact_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "account_name",
+   "fieldtype": "Data",
+>>>>>>> develop
    "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Account Name",
+<<<<<<< HEAD
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -970,17 +1007,145 @@
   {
    "amend": 0,
    "cancel": 0,
+=======
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Account",
+   "options": "Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Link",
+   "label": "Bank",
+   "options": "Bank",
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_company_account",
+   "fieldtype": "Check",
+   "label": "Is Company Account"
+  },
+  {
+   "depends_on": "is_company_account",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break",
+   "search_index": 1
+  },
+  {
+   "fieldname": "is_default",
+   "fieldtype": "Check",
+   "label": "Is Default"
+  },
+  {
+   "fieldname": "bank_account_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bank Account No",
+   "length": 30
+  },
+  {
+   "fieldname": "iban",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "IBAN",
+   "length": 30
+  },
+  {
+   "fieldname": "branch_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Branch Code"
+  },
+  {
+   "fieldname": "swift_number",
+   "fieldtype": "Data",
+   "label": "SWIFT number"
+  },
+  {
+   "depends_on": "eval:!doc.is_company_account",
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "party_type",
+   "fieldtype": "Link",
+   "label": "Party Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "party",
+   "fieldtype": "Dynamic Link",
+   "label": "Party",
+   "options": "party_type"
+  },
+  {
+   "fieldname": "address_and_contact",
+   "fieldtype": "Section Break",
+   "label": "Address and Contact",
+   "options": "fa fa-map-marker"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  }
+ ],
+ "modified": "2019-04-25 22:10:07.951351",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Bank Account",
+ "owner": "Administrator",
+ "permissions": [
+  {
+>>>>>>> develop
    "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
+<<<<<<< HEAD
    "if_owner": 0,
    "import": 1,
    "permlevel": 0,
+=======
+   "import": 1,
+>>>>>>> develop
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Accounts Manager",
+<<<<<<< HEAD
    "set_user_permissions": 0,
    "share": 1,
    "submit": 0,
@@ -989,17 +1154,27 @@
   {
    "amend": 0,
    "cancel": 0,
+=======
+   "share": 1,
+   "write": 1
+  },
+  {
+>>>>>>> develop
    "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
+<<<<<<< HEAD
    "if_owner": 0,
    "import": 0,
    "permlevel": 0,
+=======
+>>>>>>> develop
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Accounts User",
+<<<<<<< HEAD
    "set_user_permissions": 0,
    "share": 1,
    "submit": 0,
@@ -1016,4 +1191,14 @@
  "track_changes": 1,
  "track_seen": 0,
  "track_views": 0
+=======
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "bank,account",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+>>>>>>> develop
 }

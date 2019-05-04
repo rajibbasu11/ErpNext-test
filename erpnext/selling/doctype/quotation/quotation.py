@@ -62,12 +62,20 @@ class Quotation(SellingController):
 		opp.status = None
 		opp.set_status(update=True)
 
-	def declare_order_lost(self, reason):
+	def declare_enquiry_lost(self, lost_reasons_list, detailed_reason=None):
 		if not self.has_sales_order():
 			frappe.db.set(self, 'status', 'Lost')
-			frappe.db.set(self, 'order_lost_reason', reason)
+
+			if detailed_reason:
+				frappe.db.set(self, 'order_lost_reason', detailed_reason)
+
+			for reason in lost_reasons_list:
+				self.append('lost_reasons', reason)
+
 			self.update_opportunity()
 			self.update_lead()
+			self.save()
+
 		else:
 			frappe.throw(_("Cannot set as Lost as Sales Order is made."))
 
@@ -81,6 +89,8 @@ class Quotation(SellingController):
 		self.update_lead()
 
 	def on_cancel(self):
+		super(Quotation, self).on_cancel()
+
 		#update enquiry status
 		self.set_status(update=True)
 		self.update_opportunity()

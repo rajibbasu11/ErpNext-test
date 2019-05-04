@@ -11,7 +11,7 @@
 		"public/js/shopping_cart.js"
 	],
 	"css/erpnext-web.css": [
-		"public/less/website.less"
+        "public/scss/website.scss"
 	],
 	"js/marketplace.min.js": [
 		"public/js/hub/marketplace.js"
@@ -46,6 +46,7 @@
 		"public/js/templates/item_quick_entry.html",
 		"public/js/utils/item_quick_entry.js",
 		"public/js/utils/customer_quick_entry.js",
+<<<<<<< HEAD
 		"public/js/education/student_button.html",
 		"public/js/education/assessment_result_tool.html",
 		"public/js/hub/hub_factory.js"
@@ -55,4 +56,18 @@
 		"stock/dashboard/item_dashboard_list.html",
 		"stock/dashboard/item_dashboard.js"
 	]
+=======
+        "public/js/education/student_button.html",
+        "public/js/education/assessment_result_tool.html",
+        "public/js/hub/hub_factory.js"
+    ],
+    "js/item-dashboard.min.js": [
+        "stock/dashboard/item_dashboard.html",
+        "stock/dashboard/item_dashboard_list.html",
+        "stock/dashboard/item_dashboard.js"
+    ],
+    "js/lms.min.js": [
+        "public/js/education/lms/lms.js"
+    ]
+>>>>>>> develop
 }

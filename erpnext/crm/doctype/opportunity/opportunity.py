@@ -9,6 +9,10 @@ from frappe.model.mapper import get_mapped_doc
 from erpnext.setup.utils import get_exchange_rate
 from erpnext.utilities.transaction_base import TransactionBase
 from erpnext.accounts.party import get_party_account_currency
+<<<<<<< HEAD
+=======
+from frappe.desk.form import assign_to
+>>>>>>> develop
 from frappe.email.inbox import link_communication_to_document
 
 subject_field = "title"
@@ -88,10 +92,18 @@ class Opportunity(TransactionBase):
 			self.opportunity_from = "Lead"
 			self.party_name = lead_name
 
-	def declare_enquiry_lost(self,arg):
+	def declare_enquiry_lost(self, lost_reasons_list, detailed_reason=None):
 		if not self.has_active_quotation():
 			frappe.db.set(self, 'status', 'Lost')
-			frappe.db.set(self, 'order_lost_reason', arg)
+
+			if detailed_reason:
+				frappe.db.set(self, 'order_lost_reason', detailed_reason)
+
+			for reason in lost_reasons_list:
+				self.append('lost_reasons', reason)
+
+			self.save()
+
 		else:
 			frappe.throw(_("Cannot declare as lost, because Quotation has been made."))
 
@@ -141,6 +153,9 @@ class Opportunity(TransactionBase):
 
 	def on_update(self):
 		self.add_calendar_event()
+
+		# assign to customer account manager or lead owner
+		assign_to_user(self, subject_field)
 
 	def add_calendar_event(self, opts=None, force=False):
 		if not opts:
@@ -311,6 +326,24 @@ def auto_close_opportunity():
 		doc.flags.ignore_mandatory = True
 		doc.save()
 
+<<<<<<< HEAD
+=======
+def assign_to_user(doc, subject_field):
+	assign_user = None
+	if doc.customer:
+		assign_user = frappe.db.get_value('Customer', doc.customer, 'account_manager')
+	elif doc.lead:
+		assign_user = frappe.db.get_value('Lead', doc.lead, 'lead_owner')
+
+	if assign_user and assign_user != 'Administrator':
+		if not assign_to.get(dict(doctype = doc.doctype, name = doc.name)):
+			assign_to.add({
+				"assign_to": assign_user,
+				"doctype": doc.doctype,
+				"name": doc.name,
+				"description": doc.get(subject_field)
+			})
+>>>>>>> develop
 @frappe.whitelist()
 def make_opportunity_from_communication(communication, ignore_communication_links=False):
 	from erpnext.crm.doctype.lead.lead import make_lead_from_communication

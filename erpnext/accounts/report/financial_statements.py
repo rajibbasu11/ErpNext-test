@@ -331,9 +331,8 @@ def sort_accounts(accounts, is_root=False, key="name"):
 			if a.root_type == "Income" and b.root_type == "Expense":
 				return -1
 		else:
-			if re.split('\W+', a[key])[0].isdigit():
-				# if chart of accounts is numbered, then sort by number
-				return cmp(a[key], b[key])
+			# sort by key (number) or name
+			return cmp(a[key], b[key])
 		return 1
 
 	accounts.sort(key = functools.cmp_to_key(compare_accounts))
@@ -346,8 +345,8 @@ def set_gl_entries_by_account(
 
 	accounts = frappe.db.sql_list("""select name from `tabAccount`
 		where lft >= %s and rgt <= %s""", (root_lft, root_rgt))
-	additional_conditions += " and account in ('{}')"\
-		.format("', '".join([frappe.db.escape(d) for d in accounts]))
+	additional_conditions += " and account in ({})"\
+		.format(", ".join([frappe.db.escape(d) for d in accounts]))
 
 	gl_entries = frappe.db.sql("""select posting_date, account, debit, credit, is_opening, fiscal_year, debit_in_account_currency, credit_in_account_currency, account_currency from `tabGL Entry`
 		where company=%(company)s

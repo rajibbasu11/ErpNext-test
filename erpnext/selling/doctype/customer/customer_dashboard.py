@@ -1,5 +1,7 @@
 from __future__ import unicode_literals
+
 from frappe import _
+
 
 def get_data():
 	return {
@@ -7,8 +9,12 @@ def get_data():
 		'heatmap_message': _('This is based on transactions against this Customer. See timeline below for details'),
 		'fieldname': 'customer',
 		'non_standard_fieldnames': {
+<<<<<<< HEAD
 			'Quotation': 'party_name',
 			'Opportunity': 'party_name'
+=======
+			'Payment Entry': 'party_name'
+>>>>>>> develop
 		},
 		'transactions': [
 			{
@@ -18,6 +24,14 @@ def get_data():
 			{
 				'label': _('Orders'),
 				'items': ['Sales Order', 'Delivery Note', 'Sales Invoice']
+			},
+			{
+				'label': _('Service Level Agreement'),
+				'items': ['Service Level Agreement']
+			},
+			{
+				'label': _('Payments'),
+				'items': ['Payment Entry']
 			},
 			{
 				'label': _('Support'),

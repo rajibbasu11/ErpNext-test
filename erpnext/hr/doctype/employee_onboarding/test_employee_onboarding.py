@@ -39,8 +39,12 @@ class TestEmployeeOnboarding(unittest.TestCase):
 
 		# complete the task
 		project = frappe.get_doc('Project', onboarding.project)
+<<<<<<< HEAD
 		project.load_tasks()
 		project.tasks[0].status = 'Closed'
+=======
+		project.tasks[0].status = 'Completed'
+>>>>>>> develop
 		project.save()
 
 		# make employee
