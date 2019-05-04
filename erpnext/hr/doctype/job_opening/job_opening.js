@@ -42,5 +42,17 @@ frappe.ui.form.on('Job Opening', {
 	},
 	company: function(frm) {
 		frm.set_value('designation', "");
+	},
+	closed:function(frm) {
+		if(frm.doc.no_of_vacancy > frm.doc.closed){
+			frm.set_value('remaining', frm.doc.no_of_vacancy - frm.doc.closed)
+	
+	}
+	else if(frm.doc.no_of_vacancy == frm.doc.closed){
+		frm.set_value('remaining', "0"),
+		frm.set_value('status', 'Completed')	
+	}else {
+		alert("Closed Should not be grater then No Of Vacancy!")	
+	}
 	}
 });
