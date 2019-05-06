@@ -82,9 +82,7 @@ def get_data():
 					"type": "doctype",
 					"name": "Payment Term",
 					"description": _("Payment Terms based on conditions")
-<<<<<<< HEAD:erpnext/config/accounts.py
-				}
-=======
+
 				},
 
 				# Reports
@@ -112,7 +110,7 @@ def get_data():
 					"is_query_report": True,
 					"reference_doctype": "Purchase Invoice"
 				},
->>>>>>> develop:erpnext/config/accounting.py
+
 			]
 
 		},
@@ -152,7 +150,6 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-<<<<<<< HEAD:erpnext/config/accounts.py
 					"name": "Item",
 				},
 				{
@@ -162,8 +159,9 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Bank Account",
-				}
-=======
+				},
+				{
+					"type": "doctype",
 					"name": "Terms and Conditions",
 					"label": _("Terms and Conditions Template"),
 					"description": _("Template of terms or contract.")
@@ -190,7 +188,6 @@ def get_data():
 					"name": "Cheque Print Template",
 					"description": _("Setup cheque dimensions for printing")
 				},
->>>>>>> develop:erpnext/config/accounting.py
 			]
 		},
 		{
@@ -378,7 +375,6 @@ def get_data():
 				},
 				{
 					"type": "doctype",
-<<<<<<< HEAD:erpnext/config/accounts.py
 					"name": "Exchange Rate Revaluation",
 					"description": _("Exchange Rate Revaluation master.")
 				},
@@ -386,10 +382,11 @@ def get_data():
 					"type": "doctype",
 					"name": "Payment Gateway Account",
 					"description": _("Setup Gateway accounts.")
-=======
+				},
+				{
+					"type": "doctype",
 					"name": "Tax Rule",
 					"description": _("Tax Rule for transactions.")
->>>>>>> develop:erpnext/config/accounting.py
 				},
 				{
 					"type": "doctype",
