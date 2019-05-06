@@ -39,17 +39,15 @@ class TestOpportunity(unittest.TestCase):
 		# new lead should be created against the new.opportunity@example.com
 		opp_doc = frappe.get_doc(args).insert(ignore_permissions=True)
 
-<<<<<<< HEAD
 		self.assertTrue(opp_doc.party_name)
 		self.assertEqual(opp_doc.opportunity_from, "Lead")
 		self.assertEqual(frappe.db.get_value("Lead", opp_doc.party_name, "email_id"),
 			'new.opportunity@example.com')
-=======
 		self.assertTrue(opp_doc.lead)
 		self.assertEqual(opp_doc.enquiry_from, "Lead")
 		self.assertEqual(frappe.db.get_value("Lead", opp_doc.lead, "email_id"),
 			new_lead_email_id)
->>>>>>> develop
+
 
 		# create new customer and create new contact against 'new.opportunity@example.com'
 		customer = make_customer(opp_doc.party_name).insert(ignore_permissions=True)
@@ -98,13 +96,11 @@ def make_opportunity(**args):
 	if opp_doc.opportunity_from == 'Customer':
 		opp_doc.party_name= args.customer or "_Test Customer"
 
-<<<<<<< HEAD
 	if opp_doc.opportunity_from == 'Lead':
 		opp_doc.party_name = args.lead or "_T-Lead-00001"
-=======
+
 	if opp_doc.enquiry_from == 'Lead':
 		opp_doc.lead = args.lead or "_T-Lead-00001"
->>>>>>> develop
 
 	if args.with_items:
 		opp_doc.append('items', {
