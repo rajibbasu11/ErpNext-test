@@ -64,10 +64,10 @@ def _make_naming_series_key(prefix):
 	"""
 	if not text_type(prefix):
 
-	if not isinstance(prefix, string_types):
-		return ''
-	else:
-		return prefix.upper() + '.#####'
+		if not isinstance(prefix, string_types):
+			return ''
+		else:
+			return prefix.upper() + '.#####'
 
 
 def get_batch_naming_series():
