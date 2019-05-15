@@ -569,10 +569,14 @@ execute:frappe.delete_doc_if_exists("Page", "purchase-analytics")
 execute:frappe.delete_doc_if_exists("Page", "stock-analytics")
 execute:frappe.delete_doc_if_exists("Page", "production-analytics")
 <<<<<<< HEAD
+<<<<<<< HEAD
 erpnext.patches.v11_0.ewaybill_fields_gst_india #2018-11-13 #2019-01-09 #2019-04-01 #2019-04-26
 =======
 erpnext.patches.v11_0.ewaybill_fields_gst_india #2019-05-01
 >>>>>>> develop
+=======
+erpnext.patches.v11_0.ewaybill_fields_gst_india #2018-11-13 #2019-01-09 #2019-04-01 #2019-04-26 #2019-05-03
+>>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 erpnext.patches.v11_0.drop_column_max_days_allowed
 erpnext.patches.v10_0.update_user_image_in_employee
 erpnext.patches.v10_0.repost_gle_for_purchase_receipts_with_rejected_items
@@ -598,9 +602,11 @@ erpnext.patches.v11_1.make_job_card_time_logs
 erpnext.patches.v11_1.set_variant_based_on
 erpnext.patches.v11_1.move_customer_lead_to_dynamic_column
 erpnext.patches.v11_1.woocommerce_set_creation_user
+erpnext.patches.v11_1.set_default_action_for_quality_inspection
 erpnext.patches.v11_1.delete_bom_browser
 erpnext.patches.v11_1.set_salary_details_submittable
 erpnext.patches.v11_1.rename_depends_on_lwp
+<<<<<<< HEAD
 =======
 erpnext.patches.v12_0.rename_pricing_rule_child_doctypes
 erpnext.patches.v12_0.move_target_distribution_from_parent_to_child
@@ -613,3 +619,9 @@ erpnext.patches.v11_1.set_salary_details_submittable
 erpnext.patches.v11_1.rename_depends_on_lwp
 execute:frappe.delete_doc("Report", "Inactive Items")
 >>>>>>> develop
+=======
+erpnext.patches.v11_1.set_missing_title_for_quotation
+execute:frappe.delete_doc("Report", "Inactive Items")
+erpnext.patches.v11_1.delete_scheduling_tool
+erpnext.patches.v11_1.update_bank_transaction_status
+>>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082

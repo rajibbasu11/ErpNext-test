@@ -186,7 +186,10 @@ def link_item(item_data,item_status):
 	item.item_name = str(item_data.get("name"))
 	item.item_code = "woocommerce - " + str(item_data.get("product_id"))
 	item.woocommerce_id = str(item_data.get("product_id"))
+<<<<<<< HEAD
 	item.item_group = "WooCommerce Products"
+=======
+>>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 	item.item_group = _("WooCommerce Products")
 	item.stock_uom = woocommerce_settings.uom or _("Nos")
 	item.save()

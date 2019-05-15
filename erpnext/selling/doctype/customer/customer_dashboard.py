@@ -13,6 +13,9 @@ def get_data():
 			'Opportunity': 'party_name',
 			'Payment Entry': 'party_name'
 		},
+		'dynamic_links': {
+			'party_name': ['Customer', 'quotation_to']
+		},
 		'transactions': [
 			{
 				'label': _('Pre Sales'),

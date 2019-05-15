@@ -10,6 +10,7 @@ from frappe.model.naming import make_autoname, revert_series_if_last
 from frappe.utils import flt, cint
 from frappe.utils.jinja import render_template
 from frappe.utils.data import add_days
+from six import string_types
 
 class UnableToSelectBatchError(frappe.ValidationError):
 	pass
@@ -61,7 +62,11 @@ def _make_naming_series_key(prefix):
 	:param prefix: Naming series prefix gotten from Stock Settings
 	:return: The derived key. If no prefix is given, an empty string is returned
 	"""
+<<<<<<< HEAD
 	if not text_type(prefix):
+=======
+	if not isinstance(prefix, string_types):
+>>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 		return ''
 	else:
 		return prefix.upper() + '.#####'

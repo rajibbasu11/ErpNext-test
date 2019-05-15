@@ -8,10 +8,17 @@ erpnext.utils.get_party_details = function(frm, method, args, callback) {
 		method = "erpnext.accounts.party.get_party_details";
 	}
 	if(!args) {
-		if(frm.doctype != "Purchase Order" && frm.doc.customer) {
+		if((frm.doctype != "Purchase Order" && frm.doc.customer)
+			|| (frm.doc.party_name && in_list(['Quotation', 'Opportunity'], frm.doc.doctype))) {
+
+			let party_type = "Customer";
+			if(frm.doc.quotation_to && frm.doc.quotation_to === "Lead") {
+				party_type = "Lead";
+			}
+
 			args = {
-				party: frm.doc.customer,
-				party_type: "Customer",
+				party: frm.doc.customer || frm.doc.party_name,
+				party_type: party_type,
 				price_list: frm.doc.selling_price_list
 			};
 		} else if(frm.doc.supplier) {
@@ -104,7 +111,11 @@ erpnext.utils.set_taxes_from_address = function(frm, triggered_from_field, billi
 
 	if(frappe.meta.get_docfield(frm.doc.doctype, "taxes")) {
 		if(!erpnext.utils.validate_mandatory(frm, "Lead/Customer/Supplier",
+<<<<<<< HEAD
 			frm.doc.customer || frm.doc.supplier || frm.doc.lead, triggered_from_field)) {
+=======
+			frm.doc.customer || frm.doc.supplier || frm.doc.lead || frm.doc.party_name , address_field)) {
+>>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 			return;
 		}
 
@@ -160,6 +171,9 @@ erpnext.utils.set_taxes = function(frm, triggered_from_field) {
 	} else if (frm.doc.supplier) {
 		party_type = 'Supplier';
 		party = frm.doc.supplier;
+	} else if (frm.doc.quotation_to){
+		party_type = frm.doc.quotation_to;
+		party = frm.doc.party_name;
 	}
 
 	frappe.call({
