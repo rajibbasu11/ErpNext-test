@@ -63,6 +63,7 @@ def _make_naming_series_key(prefix):
 	:return: The derived key. If no prefix is given, an empty string is returned
 	"""
 	if not text_type(prefix):
+
 	if not isinstance(prefix, string_types):
 		return ''
 	else:
