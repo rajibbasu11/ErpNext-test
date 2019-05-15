@@ -56,7 +56,13 @@ def get_data(filters):
 		frappe.msgprint(_(" From Date can not be greater than To Date"))
 		return data
 
+<<<<<<< HEAD
 	for entries in record:
+=======
+
+	for entries in record:
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 	timesheets = get_timesheets(filters)
 
 	filters.from_date = frappe.utils.get_datetime(filters.from_date)
@@ -69,6 +75,10 @@ def get_data(filters):
 		total_hours = 0
 		total_billing_hours = 0
 		total_amount = 0
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 		entries_exists = False
 		timesheet_details = get_timesheet_details(filters, entries.name)
 
@@ -129,6 +139,10 @@ def get_data(filters):
 				"amount": total_amount
 			})
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 	return data
 
 def get_timesheets(filters):

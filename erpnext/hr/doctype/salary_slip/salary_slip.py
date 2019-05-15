@@ -452,8 +452,13 @@ class SalarySlip(TransactionBase):
 
 		self.set_loan_repayment()
 
+<<<<<<< HEAD
 
 		self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))
+=======
+		self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 		self.net_pay = 0
 		if self.total_working_days:
 			self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))

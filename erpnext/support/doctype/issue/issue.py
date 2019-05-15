@@ -280,6 +280,10 @@ def update_issue(contact, method):
 	"""Called when Contact is deleted"""
 	frappe.db.sql("""UPDATE `tabIssue` set contact='' where contact=%s""", contact.name)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 def get_holidays(holiday_list_name):
 	holiday_list = frappe.get_cached_doc("Holiday List", holiday_list_name)
 	holidays = [holiday.holiday_date for holiday in holiday_list.holidays]
@@ -295,7 +299,10 @@ def make_task(source_name, target_doc=None):
 			"doctype": "Task"
 		}
 	}, target_doc)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 @frappe.whitelist()
 def make_issue_from_communication(communication, ignore_communication_links=False):
 	""" raise a issue from email """
@@ -315,4 +322,7 @@ def make_issue_from_communication(communication, ignore_communication_links=Fals
 	return issue.name
 
 	return issue.name
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905

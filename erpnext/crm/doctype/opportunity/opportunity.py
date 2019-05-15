@@ -338,7 +338,10 @@ def assign_to_user(doc, subject_field):
 				"name": doc.name,
 				"description": doc.get(subject_field)
 			})
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 @frappe.whitelist()
 def make_opportunity_from_communication(communication, ignore_communication_links=False):
 	from erpnext.crm.doctype.lead.lead import make_lead_from_communication

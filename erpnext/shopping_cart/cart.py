@@ -364,6 +364,10 @@ def set_taxes(quotation, cart_settings):
 		quotation.transaction_date, quotation.company, customer_group=customer_group, supplier_group=None,
 		tax_category=quotation.tax_category, billing_address=quotation.customer_address,
 		shipping_address=quotation.shipping_address_name, use_for_shopping_cart=1)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 #
 # 	# clear table
 	quotation.set("taxes", [])
