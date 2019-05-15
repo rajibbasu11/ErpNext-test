@@ -371,14 +371,11 @@ def make_custom_fields(update=True):
 		'Purchase Invoice': purchase_invoice_gst_category + invoice_gst_fields + purchase_invoice_itc_fields + purchase_invoice_gst_fields,
 		'Purchase Order': purchase_invoice_gst_fields,
 		'Purchase Receipt': purchase_invoice_gst_fields,
-<<<<<<< HEAD
 		'Sales Invoice': sales_invoice_gst_category + invoice_gst_fields + sales_invoice_shipping_fields + sales_invoice_gst_fields,
 		'Delivery Note': sales_invoice_gst_fields + ewaybill_fields,
-=======
 		'Sales Invoice': (invoice_gst_fields + sales_invoice_gst_fields
 			+ sales_invoice_shipping_fields + si_ewaybill_fields),
 		'Delivery Note': sales_invoice_gst_fields + ewaybill_fields + sales_invoice_shipping_fields,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 		'Sales Order': sales_invoice_gst_fields,
 		'Sales Taxes and Charges Template': inter_state_gst_field,
 		'Purchase Taxes and Charges Template': inter_state_gst_field,
@@ -478,10 +475,6 @@ def make_custom_fields(update=True):
 			}
 		]
 	}
-<<<<<<< HEAD
-=======
-
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 	create_custom_fields(custom_fields, update=update)
 
 def make_fixtures(company=None):
