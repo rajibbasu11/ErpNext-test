@@ -9,10 +9,7 @@ from frappe.model.mapper import get_mapped_doc
 from erpnext.setup.utils import get_exchange_rate
 from erpnext.utilities.transaction_base import TransactionBase
 from erpnext.accounts.party import get_party_account_currency
-<<<<<<< HEAD
-=======
 from frappe.desk.form import assign_to
->>>>>>> develop
 from frappe.email.inbox import link_communication_to_document
 
 subject_field = "title"
@@ -326,8 +323,6 @@ def auto_close_opportunity():
 		doc.flags.ignore_mandatory = True
 		doc.save()
 
-<<<<<<< HEAD
-=======
 def assign_to_user(doc, subject_field):
 	assign_user = None
 	if doc.customer:
@@ -343,7 +338,7 @@ def assign_to_user(doc, subject_field):
 				"name": doc.name,
 				"description": doc.get(subject_field)
 			})
->>>>>>> develop
+
 @frappe.whitelist()
 def make_opportunity_from_communication(communication, ignore_communication_links=False):
 	from erpnext.crm.doctype.lead.lead import make_lead_from_communication

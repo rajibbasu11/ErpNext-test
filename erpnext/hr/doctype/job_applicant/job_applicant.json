@@ -12,7 +12,7 @@
   "doi",
   "column_break_3",
   "time",
-  "phone_no",
+  "mobile_no",
   "email_id",
   "source",
   "source_name",
@@ -27,7 +27,8 @@
   "column_break_20",
   "apti_marks",
   "status",
-  "final_feedback"
+  "final_feedback",
+  "message"
  ],
  "fields": [
   {
@@ -96,11 +97,6 @@
    "options": "Department"
   },
   {
-   "fieldname": "phone_no",
-   "fieldtype": "Data",
-   "label": "Phone No."
-  },
-  {
    "fieldname": "doi",
    "fieldtype": "Date",
    "label": "DOI"
@@ -154,11 +150,21 @@
   {
    "fieldname": "column_break_20",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Phone No."
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Data",
+   "label": "Message"
   }
  ],
  "icon": "fa fa-user",
  "idx": 1,
- "modified": "2019-05-04 13:33:21.697022",
+ "modified": "2019-05-11 13:38:03.901251",
  "modified_by": "Administrator",
  "module": "HR",
  "name": "Job Applicant",

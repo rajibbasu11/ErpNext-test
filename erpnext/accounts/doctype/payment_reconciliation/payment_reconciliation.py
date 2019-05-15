@@ -24,10 +24,7 @@ class PaymentReconciliation(Document):
 
 	def get_payment_entries(self):
 		order_doctype = "Sales Order" if self.party_type=="Customer" else "Purchase Order"
-<<<<<<< HEAD
-=======
 
->>>>>>> develop
 		payment_entries = get_advance_payment_entries(self.party_type, self.party,
 			self.receivable_payable_account, order_doctype, against_all_orders=True, limit=self.limit)
 

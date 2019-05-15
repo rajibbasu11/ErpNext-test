@@ -542,11 +542,8 @@ def get_outstanding_reference_documents(args):
 		args = json.loads(args)
 
 	if args.get('party_type') == 'Member':
-<<<<<<< HEAD
 			return
-=======
 		return
->>>>>>> develop
 
 	# confirm that Supplier is not blocked
 	if args.get('party_type') == 'Supplier':

@@ -169,7 +169,6 @@ class BOM(WebsiteGenerator):
 		if arg.get('scrap_items'):
 			rate = self.get_valuation_rate(arg)
 		elif arg:
-<<<<<<< HEAD
 			if arg.get('bom_no') and self.set_rate_of_sub_assembly_item_based_on_bom:
 				rate = self.get_bom_unitcost(arg['bom_no'])
 			else:
@@ -207,7 +206,6 @@ class BOM(WebsiteGenerator):
 					else:
 						frappe.msgprint(_("{0} not found for item {1}")
 							.format(self.rm_cost_as_per, arg["item_code"]), alert=True)
-=======
 			#Customer Provided parts will have zero rate
 			if not frappe.db.get_value('Item', arg["item_code"], 'is_customer_provided_item'):
 				if arg.get('bom_no') and self.set_rate_of_sub_assembly_item_based_on_bom:
@@ -247,7 +245,7 @@ class BOM(WebsiteGenerator):
 						else:
 							frappe.msgprint(_("{0} not found for item {1}")
 								.format(self.rm_cost_as_per, arg["item_code"]), alert=True)
->>>>>>> develop
+
 
 		return flt(rate)
 

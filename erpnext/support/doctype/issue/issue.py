@@ -11,11 +11,8 @@ from frappe.utils import now, time_diff_in_hours, now_datetime, getdate, get_wee
 from datetime import datetime, timedelta
 from frappe.model.mapper import get_mapped_doc
 from frappe.utils.user import is_website_user
-<<<<<<< HEAD
-=======
 from ..service_level_agreement.service_level_agreement import get_active_service_level_agreement_for
 from erpnext.crm.doctype.opportunity.opportunity import assign_to_user
->>>>>>> develop
 from frappe.email.inbox import link_communication_to_document
 
 sender_field = "raised_by"
@@ -283,8 +280,6 @@ def update_issue(contact, method):
 	"""Called when Contact is deleted"""
 	frappe.db.sql("""UPDATE `tabIssue` set contact='' where contact=%s""", contact.name)
 
-<<<<<<< HEAD
-=======
 def get_holidays(holiday_list_name):
 	holiday_list = frappe.get_cached_doc("Holiday List", holiday_list_name)
 	holidays = [holiday.holiday_date for holiday in holiday_list.holidays]
@@ -300,7 +295,7 @@ def make_task(source_name, target_doc=None):
 			"doctype": "Task"
 		}
 	}, target_doc)
->>>>>>> develop
+
 @frappe.whitelist()
 def make_issue_from_communication(communication, ignore_communication_links=False):
 	""" raise a issue from email """
@@ -316,8 +311,8 @@ def make_issue_from_communication(communication, ignore_communication_links=Fals
 
 	link_communication_to_document(doc, "Issue", issue.name, ignore_communication_links)
 
-<<<<<<< HEAD
+
 	return issue.name
-=======
+
 	return issue.name
->>>>>>> develop
+

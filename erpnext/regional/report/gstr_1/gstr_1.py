@@ -145,10 +145,7 @@ class Gstr1Report(object):
 				if self.filters.get(opts[0]):
 					conditions += opts[1]
 
-<<<<<<< HEAD
 		customers = frappe.get_all("Customer", filters={"disabled": 0})
-=======
->>>>>>> develop
 
 		if self.filters.get("type_of_business") ==  "B2B":
 			customers = frappe.get_all("Customer",
