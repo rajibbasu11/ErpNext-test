@@ -36,6 +36,8 @@ class Project(Document):
 	def load_tasks(self):
 		"""Load `tasks` from the database"""
 		project_task_custom_fields = frappe.get_all("Custom Field", {"dt": "Project Task"}, "fieldname")
+		if frappe.flags.in_import:
+			return
 
 		self.tasks = []
 		for task in self.get_tasks():

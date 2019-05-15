@@ -1,11 +1,8 @@
 {
  "allow_copy": 0,
  "allow_events_in_timeline": 0,
-<<<<<<< HEAD
  "allow_guest_to_view": 1,
-=======
  "allow_guest_to_view": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:item_code",
@@ -27,10 +24,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "name_and_description_section",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -65,10 +59,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "naming_series",
    "fieldtype": "Select",
    "hidden": 0,
@@ -103,10 +94,7 @@
    "collapsible": 0,
    "columns": 0,
    "description": "",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "item_code",
    "fieldtype": "Data",
    "hidden": 0,
@@ -143,10 +131,7 @@
    "columns": 0,
    "depends_on": "variant_of",
    "description": "If item is a variant of another item then description, image, pricing, taxes etc will be set from the template unless explicitly specified",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "variant_of",
    "fieldtype": "Link",
    "hidden": 0,
@@ -180,10 +165,7 @@
    "bold": 1,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "item_name",
    "fieldtype": "Data",
    "hidden": 0,
@@ -219,10 +201,7 @@
    "collapsible": 0,
    "columns": 0,
    "description": "",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "item_group",
    "fieldtype": "Link",
    "hidden": 0,
@@ -258,10 +237,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "is_item_from_hub",
    "fieldtype": "Check",
    "hidden": 0,
@@ -295,10 +271,7 @@
    "collapsible": 0,
    "columns": 0,
    "description": "",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "stock_uom",
    "fieldtype": "Link",
    "hidden": 0,
@@ -334,10 +307,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "column_break0",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -369,10 +339,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "disabled",
    "fieldtype": "Check",
    "hidden": 0,
@@ -405,10 +372,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "allow_alternative_item",
    "fieldtype": "Check",
    "hidden": 0,
@@ -443,10 +407,7 @@
    "columns": 0,
    "default": "1",
    "description": "",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "is_stock_item",
    "fieldtype": "Check",
    "hidden": 0,
@@ -483,10 +444,7 @@
    "collapsible": 0,
    "columns": 0,
    "default": "1",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "include_item_in_manufacturing",
    "fieldtype": "Check",
    "hidden": 0,
@@ -520,10 +478,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:(doc.__islocal&&doc.is_stock_item && !doc.has_serial_no && !doc.has_batch_no)",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "opening_stock",
    "fieldtype": "Float",
    "hidden": 0,
@@ -557,10 +512,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "is_stock_item",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "valuation_rate",
    "fieldtype": "Currency",
    "hidden": 0,
@@ -594,10 +546,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:doc.__islocal",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "standard_rate",
    "fieldtype": "Currency",
    "hidden": 0,
@@ -630,10 +579,7 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "is_fixed_asset",
    "fieldtype": "Check",
    "hidden": 0,
@@ -667,10 +613,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "is_fixed_asset",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "asset_category",
    "fieldtype": "Link",
    "hidden": 0,
@@ -705,10 +648,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "is_fixed_asset",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "asset_naming_series",
    "fieldtype": "Select",
    "hidden": 0,
@@ -743,10 +683,7 @@
    "columns": 0,
    "depends_on": "eval:!doc.__islocal",
    "description": "",
-<<<<<<< HEAD
-=======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "fieldname": "tolerance",
    "fieldtype": "Float",
    "hidden": 0,
@@ -781,10 +718,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "image",
    "fieldtype": "Attach Image",
    "hidden": 1,
@@ -818,10 +754,9 @@
    "bold": 0,
    "collapsible": 1,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "section_break_11",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -854,10 +789,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "brand",
    "fieldtype": "Link",
    "hidden": 0,
@@ -893,10 +827,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "hidden": 0,
@@ -931,10 +864,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "sb_barcodes",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -967,10 +899,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "barcodes",
    "fieldtype": "Table",
    "hidden": 0,
@@ -1006,10 +937,9 @@
    "collapsible_depends_on": "is_stock_item",
    "columns": 0,
    "depends_on": "is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "inventory_section",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -1044,10 +974,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "shelf_life_in_days",
    "fieldtype": "Int",
    "hidden": 0,
@@ -1082,10 +1011,9 @@
    "columns": 0,
    "default": "2099-12-31",
    "depends_on": "is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "end_of_life",
    "fieldtype": "Date",
    "hidden": 0,
@@ -1121,10 +1049,9 @@
    "collapsible": 0,
    "columns": 0,
    "default": "Purchase",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "default_material_request_type",
    "fieldtype": "Select",
    "hidden": 0,
@@ -1141,7 +1068,7 @@
    "options": "Purchase\nMaterial Transfer\nMaterial Issue\nManufacture\nCustomer Provided",
 =======
    "options": "Purchase\nMaterial Transfer\nMaterial Issue\nManufacture",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -1163,10 +1090,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "valuation_method",
    "fieldtype": "Select",
    "hidden": 0,
@@ -1201,10 +1127,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "column_break1",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -1239,10 +1164,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:doc.is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "warranty_period",
    "fieldtype": "Data",
    "hidden": 0,
@@ -1279,10 +1203,9 @@
    "columns": 0,
    "depends_on": "is_stock_item",
    "description": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "weight_per_unit",
    "fieldtype": "Float",
    "hidden": 0,
@@ -1316,10 +1239,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:doc.is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "weight_uom",
    "fieldtype": "Link",
    "hidden": 0,
@@ -1355,10 +1277,9 @@
    "columns": 0,
    "depends_on": "is_stock_item",
    "description": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "reorder_section",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -1394,10 +1315,9 @@
    "columns": 0,
    "depends_on": "",
    "description": "Will also apply for variants unless overrridden",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "reorder_levels",
    "fieldtype": "Table",
    "hidden": 0,
@@ -1432,10 +1352,9 @@
    "collapsible": 1,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "unit_of_measure_conversion",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -1470,10 +1389,9 @@
    "columns": 0,
    "depends_on": "",
    "description": "Will also apply for variants",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "uoms",
    "fieldtype": "Table",
    "hidden": 0,
@@ -1511,10 +1429,9 @@
    "collapsible_depends_on": "eval:doc.has_batch_no || doc.has_serial_no || doc.is_fixed_asset",
    "columns": 0,
    "depends_on": "eval:doc.is_stock_item || doc.is_fixed_asset",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "serial_nos_and_batches",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -1549,10 +1466,9 @@
    "columns": 0,
    "default": "",
    "depends_on": "eval:doc.is_stock_item",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "has_batch_no",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1590,10 +1506,9 @@
    "columns": 0,
    "depends_on": "has_batch_no",
    "description": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "create_new_batch",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1632,7 +1547,7 @@
 =======
    "description": "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions,then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item,leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "batch_number_series",
    "fieldtype": "Data",
    "hidden": 0,
@@ -1666,10 +1581,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "has_batch_no",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "has_expiry_date",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1703,10 +1617,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "has_batch_no",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "retain_sample",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1741,10 +1654,9 @@
    "columns": 0,
    "depends_on": "eval: (doc.retain_sample && doc.has_batch_no)",
    "description": "Maximum sample quantity that can be retained",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "sample_quantity",
    "fieldtype": "Int",
    "hidden": 0,
@@ -1777,10 +1689,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "column_break_37",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -1815,10 +1726,9 @@
    "default": "",
    "depends_on": "eval:doc.is_stock_item || doc.is_fixed_asset",
    "description": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "has_serial_no",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1860,7 +1770,7 @@
 =======
    "description": "Example: ABCD.#####\nIf series is set and Serial No is not mentioned in transactions,then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "serial_no_series",
    "fieldtype": "Data",
    "hidden": 0,
@@ -1895,10 +1805,9 @@
    "collapsible_depends_on": "attributes",
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "variants_section",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -1938,7 +1847,7 @@
 =======
    "description": "If this item has variants,then it cannot be selected in sales orders etc.",
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "has_variants",
    "fieldtype": "Check",
    "hidden": 0,
@@ -1974,10 +1883,9 @@
    "columns": 0,
    "default": "Item Attribute",
    "depends_on": "has_variants",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "variant_based_on",
    "fieldtype": "Select",
    "hidden": 0,
@@ -2012,10 +1920,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:(doc.has_variants || doc.variant_of) && doc.variant_based_on==='Item Attribute'",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "attributes",
    "fieldtype": "Table",
    "hidden": 1,
@@ -2049,10 +1956,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "defaults",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -2066,7 +1972,7 @@
    "label": "Sales, Purchase, Accounting Defaults",
 =======
    "label": "Sales,Purchase,Accounting Defaults",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -2089,10 +1995,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "item_defaults",
    "fieldtype": "Table",
    "hidden": 0,
@@ -2126,10 +2031,9 @@
    "bold": 0,
    "collapsible": 1,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "purchase_details",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -2143,7 +2047,7 @@
    "label": "Purchase, Replenishment Details",
 =======
    "label": "Purchase Details",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "oldfieldtype": "Section Break",
@@ -2169,10 +2073,9 @@
    "collapsible": 0,
    "columns": 0,
    "default": "1",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "is_purchase_item",
    "fieldtype": "Check",
    "hidden": 0,
@@ -2205,10 +2108,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "purchase_uom",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2245,10 +2147,9 @@
    "default": "0.00",
    "depends_on": "is_stock_item",
    "description": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "min_order_qty",
    "fieldtype": "Float",
    "hidden": 0,
@@ -2283,10 +2184,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "safety_stock",
    "fieldtype": "Float",
    "hidden": 0,
@@ -2319,10 +2219,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "purchase_details_cb",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -2357,10 +2256,9 @@
    "columns": 0,
    "depends_on": "",
    "description": "Average time taken by the supplier to deliver",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "lead_time_days",
    "fieldtype": "Int",
    "hidden": 0,
@@ -2396,10 +2294,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "last_purchase_rate",
    "fieldtype": "Float",
    "hidden": 0,
@@ -2444,7 +2341,7 @@
    "fetch_if_empty": 0,
    "fieldname": "supplier_details",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -2456,7 +2353,7 @@
    "label": "Is Customer Provided Item",
 =======
    "label": "Supplier Details",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -2487,7 +2384,7 @@
    "fetch_if_empty": 0,
    "fieldname": "delivered_by_supplier",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -2510,7 +2407,7 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "print_hide_if_no_value": 0,
    "read_only": 0,
    "remember_last_selected_value": 0,
@@ -2539,7 +2436,7 @@
    "fetch_if_empty": 0,
    "fieldname": "manufacturer",
    "fieldtype": "Link",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -2556,7 +2453,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Manufacturer",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -2585,7 +2482,7 @@
    "fetch_if_empty": 0,
    "fieldname": "manufacturer_part_no",
    "fieldtype": "Data",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -2597,7 +2494,7 @@
    "label": "Delivered by Supplier (Drop Ship)",
 =======
    "label": "Manufacturer Part Number",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -2606,7 +2503,7 @@
    "print_hide": 1,
 =======
    "print_hide": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "print_hide_if_no_value": 0,
    "read_only": 0,
    "remember_last_selected_value": 0,
@@ -2695,7 +2592,7 @@
    "depends_on": "",
 =======
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "column_break2",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -2731,10 +2628,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "supplier_items",
    "fieldtype": "Table",
    "hidden": 0,
@@ -2768,10 +2664,9 @@
    "bold": 0,
    "collapsible": 1,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "foreign_trade_details",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -2804,10 +2699,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "country_of_origin",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2841,10 +2735,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "column_break_59",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -2876,10 +2769,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "customs_tariff_number",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2913,10 +2805,9 @@
    "bold": 0,
    "collapsible": 1,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "sales_details",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -2951,10 +2842,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "sales_uom",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2989,10 +2879,9 @@
    "collapsible": 0,
    "columns": 0,
    "default": "1",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "is_sales_item",
    "fieldtype": "Check",
    "hidden": 0,
@@ -3026,10 +2915,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "column_break3",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -3065,10 +2953,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "max_discount",
    "fieldtype": "Float",
    "hidden": 0,
@@ -3162,7 +3049,7 @@
    "set_only_once": 0,
    "translatable": 0,
 =======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "unique": 0
   },
   {
@@ -3181,7 +3068,7 @@
    "fetch_if_empty": 0,
    "fieldname": "deferred_revenue",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3193,7 +3080,7 @@
    "label": "Enable Deferred Revenue",
 =======
    "label": "Deferred Revenue",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3228,7 +3115,7 @@
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -3242,7 +3129,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Account",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3271,7 +3158,7 @@
    "fetch_if_empty": 0,
    "fieldname": "enable_deferred_revenue",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3283,7 +3170,7 @@
    "label": "No of Months",
 =======
    "label": "Enable Deferred Revenue",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3315,7 +3202,7 @@
    "fetch_if_empty": 0,
    "fieldname": "column_break_85",
    "fieldtype": "Column Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3326,7 +3213,7 @@
 <<<<<<< HEAD
    "label": "Deferred Expense",
 =======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3362,7 +3249,7 @@
    "fieldtype": "Int",
    "hidden": 0,
    "ignore_user_permissions": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -3377,7 +3264,7 @@
    "label": "No of Months",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3407,7 +3294,7 @@
    "fetch_if_empty": 0,
    "fieldname": "deferred_expense_section",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3419,7 +3306,7 @@
    "label": "Enable Deferred Expense",
 =======
    "label": "Deferred Expense",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3454,7 +3341,7 @@
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -3468,7 +3355,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Account",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3497,7 +3384,7 @@
    "fetch_if_empty": 0,
    "fieldname": "enable_deferred_expense",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3509,7 +3396,7 @@
    "label": "No of Months",
 =======
    "label": "Enable Deferred Expense",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3541,7 +3428,7 @@
    "fetch_if_empty": 0,
    "fieldname": "column_break_88",
    "fieldtype": "Column Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3552,7 +3439,7 @@
 <<<<<<< HEAD
    "label": "Customer Details",
 =======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -3585,7 +3472,7 @@
    "fetch_if_empty": 0,
    "fieldname": "no_of_months_exp",
    "fieldtype": "Int",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3602,7 +3489,7 @@
    "label": "No of Months",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3630,7 +3517,7 @@
    "columns": 0,
    "fetch_if_empty": 0,
    "fieldname": "customer_details",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldtype": "Section Break",
    "hidden": 0,
    "ignore_user_permissions": 0,
@@ -3649,7 +3536,7 @@
    "label": "Customer Details",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3678,7 +3565,7 @@
    "description": "",
    "fetch_if_empty": 0,
    "fieldname": "customer_items",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldtype": "Table",
    "hidden": 0,
    "ignore_user_permissions": 0,
@@ -3699,7 +3586,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Item Customer Detail",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3725,7 +3612,7 @@
 =======
    "fetch_if_empty": 0,
    "fieldname": "item_tax_section_break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldtype": "Section Break",
    "hidden": 0,
    "ignore_user_permissions": 0,
@@ -3746,7 +3633,7 @@
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-money",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3776,7 +3663,7 @@
    "fetch_if_empty": 0,
    "fieldname": "taxes",
    "fieldtype": "Table",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3798,7 +3685,7 @@
    "oldfieldname": "item_tax",
    "oldfieldtype": "Table",
    "options": "Item Tax",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3828,7 +3715,7 @@
    "fetch_if_empty": 0,
    "fieldname": "inspection_criteria",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3846,7 +3733,7 @@
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-search",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3876,7 +3763,7 @@
    "fetch_if_empty": 0,
    "fieldname": "inspection_required_before_purchase",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3902,7 +3789,7 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "print_hide_if_no_value": 0,
    "read_only": 0,
    "remember_last_selected_value": 0,
@@ -3930,7 +3817,7 @@
    "fetch_if_empty": 0,
    "fieldname": "inspection_required_before_delivery",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -3948,7 +3835,7 @@
    "label": "Inspection Required before Delivery",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -3982,7 +3869,7 @@
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -4010,7 +3897,7 @@
    "print_hide": 1,
    "print_hide_if_no_value": 0,
    "read_only": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
@@ -4038,7 +3925,7 @@
    "fetch_if_empty": 0,
    "fieldname": "manufacturing",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4059,7 +3946,7 @@
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-cogs",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4092,7 +3979,7 @@
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -4108,7 +3995,7 @@
    "oldfieldname": "default_bom",
    "oldfieldtype": "Link",
    "options": "BOM",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4117,7 +4004,7 @@
    "read_only": 0,
 =======
    "read_only": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
@@ -4144,7 +4031,7 @@
    "fieldname": "is_sub_contracted_item",
    "fieldtype": "Check",
    "hidden": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_filter": 0,
@@ -4168,7 +4055,7 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "print_hide_if_no_value": 0,
    "read_only": 0,
    "remember_last_selected_value": 0,
@@ -4195,7 +4082,7 @@
    "fetch_if_empty": 0,
    "fieldname": "column_break_74",
    "fieldtype": "Column Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4211,7 +4098,7 @@
 =======
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4242,7 +4129,7 @@
    "fieldname": "customer_code",
    "fieldtype": "Data",
    "hidden": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_filter": 0,
@@ -4263,13 +4150,13 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "print_hide_if_no_value": 0,
    "read_only": 0,
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
-   "search_index": 0,
+   "search_index": 1,
    "set_only_once": 0,
    "translatable": 0,
    "unique": 0
@@ -4291,7 +4178,7 @@
    "fetch_if_empty": 0,
    "fieldname": "website_section",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4308,7 +4195,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "fa fa-globe",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4317,7 +4204,7 @@
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
-   "search_index": 0,
+   "search_index": 1,
    "set_only_once": 0,
    "translatable": 0,
    "unique": 0
@@ -4338,7 +4225,7 @@
    "fetch_if_empty": 0,
    "fieldname": "show_in_website",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4354,7 +4241,7 @@
    "label": "Show in Website",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4367,7 +4254,7 @@
    "search_index": 0,
 =======
    "search_index": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "set_only_once": 0,
    "translatable": 0,
    "unique": 0
@@ -4389,7 +4276,7 @@
    "fetch_if_empty": 0,
    "fieldname": "show_variant_in_website",
    "fieldtype": "Check",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4401,7 +4288,7 @@
    "label": "Weightage",
 =======
    "label": "Show in Website (Variant)",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -4416,7 +4303,7 @@
    "search_index": 0,
 =======
    "search_index": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "set_only_once": 0,
    "translatable": 0,
    "unique": 0
@@ -4437,7 +4324,7 @@
    "fetch_if_empty": 0,
    "fieldname": "route",
    "fieldtype": "Small Text",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4454,7 +4341,7 @@
    "label": "Route",
    "length": 0,
    "no_copy": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4485,7 +4372,7 @@
    "fetch_if_empty": 0,
    "fieldname": "weightage",
    "fieldtype": "Int",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4502,7 +4389,7 @@
    "label": "Weightage",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4532,7 +4419,7 @@
    "fetch_if_empty": 0,
    "fieldname": "slideshow",
    "fieldtype": "Link",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4549,7 +4436,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Website Slideshow",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4558,7 +4445,7 @@
    "read_only": 1,
 =======
    "read_only": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
@@ -4583,7 +4470,7 @@
    "fetch_if_empty": 0,
    "fieldname": "website_image",
    "fieldtype": "Attach",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4599,7 +4486,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4633,7 +4520,7 @@
    "fieldtype": "Data",
    "hidden": 0,
    "ignore_user_permissions": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -4648,7 +4535,7 @@
    "label": "Thumbnail",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4657,7 +4544,7 @@
    "read_only": 0,
 =======
    "read_only": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
@@ -4682,7 +4569,7 @@
    "fetch_if_empty": 0,
    "fieldname": "cb72",
    "fieldtype": "Column Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4698,7 +4585,7 @@
 =======
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4732,7 +4619,7 @@
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "ignore_xss_filter": 0,
    "in_filter": 0,
    "in_global_search": 0,
@@ -4747,7 +4634,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Warehouse",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4781,7 +4668,7 @@
    "fetch_if_empty": 0,
    "fieldname": "website_item_groups",
    "fieldtype": "Table",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4798,7 +4685,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Website Item Group",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4831,7 +4718,7 @@
    "fetch_if_empty": 0,
    "fieldname": "sb72",
    "fieldtype": "Section Break",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4843,7 +4730,7 @@
    "label": "Copy From Item Group",
 =======
    "label": "Website Specifications",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -4874,7 +4761,7 @@
    "fetch_if_empty": 0,
    "fieldname": "copy_from_item_group",
    "fieldtype": "Button",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4891,7 +4778,7 @@
    "label": "Copy From Item Group",
    "length": 0,
    "no_copy": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4920,7 +4807,7 @@
    "fetch_if_empty": 0,
    "fieldname": "website_specifications",
    "fieldtype": "Table",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4937,7 +4824,7 @@
    "length": 0,
    "no_copy": 0,
    "options": "Item Website Specification",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
@@ -4967,7 +4854,7 @@
    "fetch_if_empty": 0,
    "fieldname": "web_long_description",
    "fieldtype": "Text Editor",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "hidden": 0,
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
@@ -4979,7 +4866,7 @@
    "label": "Website Content",
 =======
    "label": "Website Description",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -5002,10 +4889,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "total_projected_qty",
    "fieldtype": "Float",
    "hidden": 1,
@@ -5039,10 +4925,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:(!doc.is_item_from_hub)",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "hub_publishing_sb",
    "fieldtype": "Section Break",
    "hidden": 0,
@@ -5077,10 +4962,9 @@
    "columns": 0,
    "default": "0",
    "description": "Publish Item to hub.erpnext.com",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "publish_in_hub",
    "fieldtype": "Check",
    "hidden": 0,
@@ -5113,10 +4997,9 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "hub_category_to_publish",
    "fieldtype": "Data",
    "hidden": 0,
@@ -5151,10 +5034,9 @@
    "collapsible": 0,
    "columns": 0,
    "description": "Publish \"In Stock\" or \"Not in Stock\" on Hub based on stock available in this warehouse.",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "hub_warehouse",
    "fieldtype": "Link",
    "hidden": 0,
@@ -5189,10 +5071,9 @@
    "collapsible": 0,
    "columns": 0,
    "default": "0",
-<<<<<<< HEAD
-=======
+
    "fetch_if_empty": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
    "fieldname": "synced_with_hub",
    "fieldtype": "Check",
    "hidden": 0,
@@ -5223,7 +5104,7 @@
  "has_web_view": 1,
 =======
  "has_web_view": 0,
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
  "hide_heading": 0,
  "hide_toolbar": 0,
  "icon": "fa fa-tag",
@@ -5236,10 +5117,14 @@
  "istable": 0,
  "max_attachments": 1,
 <<<<<<< HEAD
+<<<<<<< HEAD
  "modified": "2019-04-08 11:47:59.269724",
 =======
  "modified": "2019-05-09 18:47:30.475833",
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
+=======
+ "modified": "2019-05-09 18:47:30.475833",
+>>>>>>> upstream/develop
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item",

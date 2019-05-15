@@ -294,23 +294,16 @@ class SalarySlip(TransactionBase):
 
 		self.set_loan_repayment()
 
-<<<<<<< HEAD
 
 		self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))
-=======
 		self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))
-<<<<<<< HEAD
-
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 		self.net_pay = 0
 		if self.total_working_days:
 			self.net_pay = flt(self.gross_pay) - (flt(self.total_deduction) + flt(self.total_loan_repayment))
 
 		self.rounded_total = rounded(self.net_pay,
 			self.precision("net_pay") if disable_rounded_total else 0)
-=======
 		self.rounded_total = rounded(self.net_pay)
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 
 		if self.net_pay < 0:
 			frappe.throw(_("Net Pay cannnot be negative"))
@@ -352,6 +345,31 @@ class SalarySlip(TransactionBase):
 		for key in ('earnings', 'deductions'):
 			for d in self.get(key):
 				data[d.abbr] = d.amount
+	def email_salary_slip(self):
+		receiver = frappe.db.get_value("Employee", self.employee, "prefered_email")
+		hr_settings = frappe.get_single("HR Settings")
+		message = "Please see attachment"
+		password = None
+		if hr_settings.encrypt_salary_slips_in_emails:
+			password = generate_password_for_pdf(hr_settings.password_policy, self.employee)
+			message += """<br>Note: Your salary slip is password protected,
+				the password to unlock the PDF is of the format {0}. """.format(hr_settings.password_policy)
+
+		if receiver:
+			email_args = {
+				"recipients": [receiver],
+				"message": _(message),
+				"subject": 'Salary Slip - from {0} to {1}'.format(self.start_date, self.end_date),
+				"attachments": [frappe.attach_print(self.doctype, self.name, file_name=self.name, password=password)],
+				"reference_doctype": self.doctype,
+				"reference_name": self.name
+				}
+			if not frappe.flags.in_test:
+				enqueue(method=frappe.sendmail, queue='short', timeout=300, is_async=True, **email_args)
+			else:
+				frappe.sendmail(**email_args)
+		else:
+			msgprint(_("{0}: Employee email not found, hence email not sent").format(self.employee_name))
 
 		return data
 
@@ -825,3 +843,7 @@ def unlink_ref_doc_from_salary_slip(ref_no):
 		for ss in linked_ss:
 			ss_doc = frappe.get_doc("Salary Slip", ss)
 			frappe.db.set_value("Salary Slip", ss_doc.name, "journal_entry", "")
+
+def generate_password_for_pdf(policy_template, employee):
+	employee = frappe.get_doc("Employee", employee)
+	return policy_template.format(**employee.as_dict())
