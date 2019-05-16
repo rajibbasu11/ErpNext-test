@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "add_total_row": 1, 
  "creation": "2013-05-13 16:10:02", 
  "disable_prepared_report": 0, 
@@ -18,7 +17,6 @@
  "ref_doctype": "Purchase Order", 
  "report_name": "Requested Items To Be Ordered", 
  "report_type": "Query Report", 
-=======
  "add_total_row": 1,
  "creation": "2013-05-13 16:10:02",
  "disable_prepared_report": 0,
@@ -37,7 +35,6 @@
  "ref_doctype": "Purchase Order",
  "report_name": "Requested Items To Be Ordered",
  "report_type": "Query Report",
->>>>>>> develop
  "roles": [
   {
    "role": "Stock User"

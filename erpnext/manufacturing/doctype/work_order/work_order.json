@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
    "allow_copy": 0,
    "allow_events_in_timeline": 0,
    "allow_guest_to_view": 0,
@@ -1800,7 +1799,6 @@
    "track_seen": 1,
    "track_views": 0
   }
-=======
  "allow_copy": 0, 
  "allow_events_in_timeline": 0, 
  "allow_guest_to_view": 0, 
@@ -3618,4 +3616,3 @@
  "track_seen": 1, 
  "track_views": 0
 }
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082

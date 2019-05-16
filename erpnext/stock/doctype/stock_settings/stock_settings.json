@@ -151,7 +151,6 @@
   {
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
-<<<<<<< HEAD
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -185,8 +184,6 @@
   {
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
-=======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -318,8 +315,6 @@
   {
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
-<<<<<<< HEAD
-=======
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -355,7 +350,6 @@
   {
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "allow_on_submit": 0, 
    "bold": 0, 
    "collapsible": 0, 
@@ -957,11 +951,8 @@
  "issingle": 1, 
  "istable": 0, 
  "max_attachments": 0, 
-<<<<<<< HEAD
  "modified": "2018-09-25 01:19:07.738045", 
-=======
  "modified": "2019-04-18 12:33:08.040078", 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
  "modified_by": "Administrator", 
  "module": "Stock", 
  "name": "Stock Settings", 

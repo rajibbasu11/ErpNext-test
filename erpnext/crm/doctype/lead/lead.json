@@ -117,7 +117,6 @@
    "unique": 0
   },
   {
-<<<<<<< HEAD
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -150,7 +149,6 @@
    "search_index": 1,
    "set_only_once": 0,
    "translatable": 0,
-=======
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -182,7 +180,6 @@
    "search_index": 1, 
    "set_only_once": 0, 
    "translatable": 0, 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "unique": 0
   },
   {
@@ -536,7 +533,6 @@
    "unique": 0
   },
   {
-<<<<<<< HEAD
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -567,7 +563,6 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
-=======
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -600,7 +595,6 @@
    "search_index": 1, 
    "set_only_once": 0, 
    "translatable": 0, 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
    "unique": 0
   },
   {
@@ -1486,7 +1480,6 @@
    "translatable": 0,
    "unique": 0
   }
-<<<<<<< HEAD
  ],
  "has_web_view": 0,
  "hide_heading": 0,
@@ -1506,7 +1499,6 @@
  "name": "Lead",
  "name_case": "Title Case",
  "owner": "Administrator",
-=======
  ], 
  "has_web_view": 0, 
  "hide_heading": 0, 
@@ -1526,7 +1518,6 @@
  "name": "Lead", 
  "name_case": "Title Case", 
  "owner": "Administrator", 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
  "permissions": [
   {
    "amend": 0,

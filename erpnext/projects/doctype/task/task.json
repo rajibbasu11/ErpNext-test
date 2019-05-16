@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "allow_copy": 0, 
  "allow_events_in_timeline": 0, 
  "allow_guest_to_view": 0, 
@@ -1402,7 +1401,6 @@
  "module": "Projects", 
  "name": "Task", 
  "owner": "Administrator", 
-=======
  "allow_import": 1,
  "autoname": "TASK-.YYYY.-.#####",
  "creation": "2013-01-29 19:25:50",
@@ -1760,7 +1758,6 @@
  "module": "Projects",
  "name": "Task",
  "owner": "Administrator",
->>>>>>> develop
  "permissions": [
   {
    "create": 1,
@@ -1773,7 +1770,6 @@
    "share": 1,
    "write": 1
   }
-<<<<<<< HEAD
  ], 
  "quick_entry": 0, 
  "read_only": 0, 
@@ -1786,7 +1782,6 @@
  "track_changes": 0, 
  "track_seen": 1, 
  "track_views": 0
-=======
  ],
  "search_fields": "subject",
  "show_name_in_global_search": 1,
@@ -1794,5 +1789,4 @@
  "timeline_field": "project",
  "title_field": "subject",
  "track_seen": 1
->>>>>>> develop
 }

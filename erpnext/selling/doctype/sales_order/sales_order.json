@@ -15,7 +15,6 @@
  "engine": "InnoDB",
  "fields": [
   {
-<<<<<<< HEAD
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -4210,7 +4209,6 @@
  "module": "Selling", 
  "name": "Sales Order", 
  "owner": "Administrator", 
-=======
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -8538,7 +8536,6 @@
  "module": "Selling",
  "name": "Sales Order",
  "owner": "Administrator",
->>>>>>> develop
  "permissions": [
   {
    "amend": 1,

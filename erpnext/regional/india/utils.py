@@ -14,13 +14,10 @@ def validate_gstin_for_india(doc, method):
 	if not hasattr(doc, 'gstin') or not doc.gstin:
 		return
 
-<<<<<<< HEAD
 	doc.gstin = doc.gstin.upper().strip()
-=======
 	set_gst_state_and_state_number(doc)
 
 	doc.gstin = doc.gstin.upper().strip() if doc.gstin else ""
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 	if not doc.gstin or doc.gstin == 'NA':
 		return
 

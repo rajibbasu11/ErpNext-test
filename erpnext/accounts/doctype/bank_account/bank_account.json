@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "allow_copy": 0,
  "allow_events_in_timeline": 0,
  "allow_guest_to_view": 0,
@@ -28,7 +27,6 @@
    "ignore_user_permissions": 0,
    "ignore_xss_filter": 0,
    "in_filter": 0,
-=======
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:account_name",
@@ -62,12 +60,10 @@
   {
    "fieldname": "account_name",
    "fieldtype": "Data",
->>>>>>> develop
    "in_global_search": 1,
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Account Name",
-<<<<<<< HEAD
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
@@ -1007,7 +1003,6 @@
   {
    "amend": 0,
    "cancel": 0,
-=======
    "reqd": 1,
    "unique": 1
   },
@@ -1129,23 +1124,18 @@
  "owner": "Administrator",
  "permissions": [
   {
->>>>>>> develop
    "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
-<<<<<<< HEAD
    "if_owner": 0,
    "import": 1,
    "permlevel": 0,
-=======
    "import": 1,
->>>>>>> develop
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Accounts Manager",
-<<<<<<< HEAD
    "set_user_permissions": 0,
    "share": 1,
    "submit": 0,
@@ -1154,27 +1144,21 @@
   {
    "amend": 0,
    "cancel": 0,
-=======
    "share": 1,
    "write": 1
   },
   {
->>>>>>> develop
    "create": 1,
    "delete": 1,
    "email": 1,
    "export": 1,
-<<<<<<< HEAD
    "if_owner": 0,
    "import": 0,
    "permlevel": 0,
-=======
->>>>>>> develop
    "print": 1,
    "read": 1,
    "report": 1,
    "role": "Accounts User",
-<<<<<<< HEAD
    "set_user_permissions": 0,
    "share": 1,
    "submit": 0,
@@ -1191,7 +1175,6 @@
  "track_changes": 1,
  "track_seen": 0,
  "track_views": 0
-=======
    "share": 1,
    "write": 1
   }
@@ -1200,5 +1183,4 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "track_changes": 1
->>>>>>> develop
 }

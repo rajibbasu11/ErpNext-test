@@ -32,17 +32,15 @@ erpnext.LeadController = frappe.ui.form.Controller.extend({
 		erpnext.toggle_naming_series();
 		frappe.dynamic_link = { doc: doc, fieldname: 'name', doctype: 'Lead' }
 
-<<<<<<< HEAD
 		if(!doc.__islocal && doc.__onload && !doc.__onload.is_customer) {
 			this.frm.add_custom_button(__("Customer"), this.create_customer, __('Create'));
 			this.frm.add_custom_button(__("Opportunity"), this.create_opportunity, __('Create'));
 			this.frm.add_custom_button(__("Quotation"), this.make_quotation, __('Create'));
-=======
+
 		if (!doc.__islocal && doc.__onload && !doc.__onload.is_customer) {
 			this.frm.add_custom_button(__("Customer"), this.create_customer, __("Make"));
 			this.frm.add_custom_button(__("Opportunity"), this.create_opportunity, __("Make"));
 			this.frm.add_custom_button(__("Quotation"), this.make_quotation, __("Make"));
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 		}
 
 		if (!this.frm.doc.__islocal) {

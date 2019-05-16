@@ -3480,7 +3480,6 @@
    "translatable": 0,
    "unique": 0,
    "width": "50%"
-<<<<<<< HEAD
   }, 
   {
    "allow_bulk_edit": 0, 
@@ -4375,7 +4374,6 @@
    "set_only_once": 0, 
    "translatable": 0, 
    "unique": 0, 
-=======
   },
   {
    "allow_bulk_edit": 0,
@@ -5270,7 +5268,6 @@
    "set_only_once": 0,
    "translatable": 0,
    "unique": 0,
->>>>>>> develop
    "width": "50%"
   },
   {
@@ -6801,7 +6798,6 @@
    "translatable": 0,
    "unique": 0
   }
-<<<<<<< HEAD
  ], 
  "has_web_view": 0, 
  "hide_heading": 0, 
@@ -6821,7 +6817,6 @@
  "name": "Sales Invoice", 
  "name_case": "Title Case", 
  "owner": "Administrator", 
-=======
  ],
  "has_web_view": 0,
  "hide_toolbar": 0,
@@ -6839,7 +6834,6 @@
  "name": "Sales Invoice",
  "name_case": "Title Case",
  "owner": "Administrator",
->>>>>>> develop
  "permissions": [
   {
    "amend": 1,

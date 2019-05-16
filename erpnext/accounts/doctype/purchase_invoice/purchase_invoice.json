@@ -1880,8 +1880,7 @@
    "allow_on_submit": 0,
    "bold": 0,
    "collapsible": 0,
-<<<<<<< HEAD
-=======
+
    "collapsible_depends_on": "",
    "columns": 0,
    "fetch_if_empty": 0,
@@ -1951,7 +1950,6 @@
    "allow_on_submit": 0,
    "bold": 0,
    "collapsible": 0,
->>>>>>> develop
    "collapsible_depends_on": "supplied_items",
    "columns": 0,
    "depends_on": "",
@@ -2324,11 +2322,8 @@
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
-<<<<<<< HEAD
    "fieldname": "taxes_and_charges",
-=======
-   "fieldname": "tax_category",
->>>>>>> develop
+   "fieldname": "tax_category"
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 0,
@@ -2337,7 +2332,6 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
    "label": "Taxes and Charges",
    "length": 0,
    "no_copy": 0,
@@ -2345,14 +2339,12 @@
    "oldfieldtype": "Link",
    "options": "Purchase Taxes and Charges Template",
    "permlevel": 0,
-=======
    "label": "Tax Category",
    "length": 0,
    "no_copy": 0,
    "options": "Tax Category",
    "permlevel": 0,
    "precision": "",
->>>>>>> develop
    "print_hide": 1,
    "print_hide_if_no_value": 0,
    "read_only": 0,
@@ -2470,8 +2462,7 @@
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
-<<<<<<< HEAD
-=======
+
    "fieldname": "taxes_and_charges",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2507,7 +2498,6 @@
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
->>>>>>> develop
    "fieldname": "taxes",
    "fieldtype": "Table",
    "hidden": 0,
@@ -3635,7 +3625,6 @@
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
-<<<<<<< HEAD
    "fieldname": "clearance_date",
    "fieldtype": "Date",
    "hidden": 1,
@@ -3669,8 +3658,6 @@
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
-=======
->>>>>>> develop
    "fieldname": "col_br_payments",
    "fieldtype": "Column Break",
    "hidden": 0,
@@ -5018,28 +5005,22 @@
   }
  ],
  "has_web_view": 0,
-<<<<<<< HEAD
  "hide_heading": 0,
  "hide_toolbar": 0,
  "icon": "fa fa-file-text",
  "idx": 204,
  "image_view": 0,
-=======
  "hide_toolbar": 0,
  "icon": "fa fa-file-text",
  "idx": 204,
->>>>>>> develop
  "in_create": 0,
  "is_submittable": 1,
  "issingle": 0,
  "istable": 0,
  "max_attachments": 0,
  "menu_index": 0,
-<<<<<<< HEAD
  "modified": "2019-04-22 12:45:49.728359",
-=======
  "modified": "2019-04-22 12:08:12.648559",
->>>>>>> develop
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Purchase Invoice",
@@ -5144,10 +5125,7 @@
  ],
  "quick_entry": 0,
  "read_only": 0,
-<<<<<<< HEAD
  "read_only_onload": 1,
-=======
->>>>>>> develop
  "search_fields": "posting_date, supplier, bill_no, base_grand_total, outstanding_amount",
  "show_name_in_global_search": 1,
  "sort_field": "modified",

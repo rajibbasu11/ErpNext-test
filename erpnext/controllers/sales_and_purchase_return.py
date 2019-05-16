@@ -281,12 +281,10 @@ def make_return_doc(doctype, source_name, target_doc=None):
 			target_doc.so_detail = source_doc.so_detail
 			target_doc.si_detail = source_doc.si_detail
 			target_doc.expense_account = source_doc.expense_account
-<<<<<<< HEAD
 			target_doc.warehouse = default_return_warehouse if default_return_warehouse else source_doc.warehouse
-=======
 			if default_warehouse_for_sales_return:
 				target_doc.warehouse = default_warehouse_for_sales_return
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
 		elif doctype == "Sales Invoice":
 			target_doc.sales_order = source_doc.sales_order
 			target_doc.delivery_note = source_doc.delivery_note

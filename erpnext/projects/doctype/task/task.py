@@ -166,16 +166,14 @@ class Task(NestedSet):
 		if self.project:
 			tasks = frappe.get_doc('Project', self.project).tasks
 			for task in tasks:
-<<<<<<< HEAD
+
 				if task.get('task_id') == self.name:
 					frappe.delete_doc('Project Task', task.name)
 
 
-=======
 				if (task.get('task_id') == self.name):
 					frappe.delete_doc('Project Task', task.name)
 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 		self.update_nsm_model()
 
 	def update_status(self):

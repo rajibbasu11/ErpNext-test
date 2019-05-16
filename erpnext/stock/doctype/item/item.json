@@ -1064,9 +1064,9 @@
    "label": "Default Material Request Type",
    "length": 0,
    "no_copy": 0,
-<<<<<<< HEAD
+
    "options": "Purchase\nMaterial Transfer\nMaterial Issue\nManufacture\nCustomer Provided",
-=======
+
    "options": "Purchase\nMaterial Transfer\nMaterial Issue\nManufacture",
 
    "permlevel": 0,
@@ -1542,9 +1542,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:doc.has_batch_no==1 && doc.create_new_batch==1",
-<<<<<<< HEAD
+
    "description": "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",
-=======
+
    "description": "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions,then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item,leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings.",
    "fetch_if_empty": 0,
 
@@ -1765,9 +1765,9 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval:doc.is_stock_item || doc.is_fixed_asset",
-<<<<<<< HEAD
+
    "description": "Example: ABCD.#####\nIf series is set and Serial No is not mentioned in transactions, then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",
-=======
+
    "description": "Example: ABCD.#####\nIf series is set and Serial No is not mentioned in transactions,then automatic serial number will be created based on this series. If you always want to explicitly mention Serial Nos for this item. leave this blank.",
    "fetch_if_empty": 0,
 
@@ -1842,9 +1842,9 @@
    "columns": 0,
    "default": "0",
    "depends_on": "eval:!doc.variant_of",
-<<<<<<< HEAD
+
    "description": "If this item has variants, then it cannot be selected in sales orders etc.",
-=======
+
    "description": "If this item has variants,then it cannot be selected in sales orders etc.",
    "fetch_if_empty": 0,
 
@@ -1968,9 +1968,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Sales, Purchase, Accounting Defaults",
-=======
+
    "label": "Sales,Purchase,Accounting Defaults",
 
    "length": 0,
@@ -2043,9 +2043,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Purchase, Replenishment Details",
-=======
+
    "label": "Purchase Details",
 
    "length": 0,
@@ -2329,12 +2329,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "fieldname": "is_customer_provided_item",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "depends_on": "",
@@ -2349,9 +2349,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Is Customer Provided Item",
-=======
+
    "label": "Supplier Details",
 
    "length": 0,
@@ -2376,11 +2376,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval:doc.is_customer_provided_item==1",
    "fieldname": "customer",
    "fieldtype": "Link",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "delivered_by_supplier",
    "fieldtype": "Check",
@@ -2392,7 +2392,7 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Customer",
    "length": 0,
    "no_copy": 0,
@@ -2400,7 +2400,7 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
-=======
+
    "label": "Delivered by Supplier (Drop Ship)",
    "length": 0,
    "no_copy": 0,
@@ -2423,13 +2423,13 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "columns": 0,
    "depends_on": "",
    "fieldname": "supplier_details",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
@@ -2444,11 +2444,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Supplier Details",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Manufacturer",
    "length": 0,
    "no_copy": 0,
@@ -2474,10 +2474,10 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "delivered_by_supplier",
    "fieldtype": "Check",
-=======
+
    "depends_on": "",
    "fetch_if_empty": 0,
    "fieldname": "manufacturer_part_no",
@@ -2490,18 +2490,18 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Delivered by Supplier (Drop Ship)",
-=======
+
    "label": "Manufacturer Part Number",
 
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
    "precision": "",
-<<<<<<< HEAD
+
    "print_hide": 1,
-=======
+
    "print_hide": 0,
 
    "print_hide_if_no_value": 0,
@@ -2522,7 +2522,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-<<<<<<< HEAD
+
    "fieldname": "manufacturer",
    "fieldtype": "Link",
    "hidden": 0,
@@ -2590,7 +2590,7 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "",
-=======
+
    "fetch_if_empty": 0,
 
    "fieldname": "column_break2",
@@ -2981,7 +2981,7 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
-<<<<<<< HEAD
+
    "unique": 0
   },
   {
@@ -3048,7 +3048,7 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
-=======
+
 
    "unique": 0
   },
@@ -3057,12 +3057,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "fieldname": "enable_deferred_revenue",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3076,9 +3076,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Enable Deferred Revenue",
-=======
+
    "label": "Deferred Revenue",
 
    "length": 0,
@@ -3103,12 +3103,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "column_break_85",
    "fieldtype": "Column Break",
    "hidden": 0,
    "ignore_user_permissions": 0,
-=======
+
    "depends_on": "enable_deferred_revenue",
    "fetch_if_empty": 0,
    "fieldname": "deferred_revenue_account",
@@ -3121,10 +3121,10 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Deferred Revenue Account",
    "length": 0,
    "no_copy": 0,
@@ -3150,11 +3150,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "enable_deferred_revenue",
    "fieldname": "no_of_months",
    "fieldtype": "Int",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "enable_deferred_revenue",
    "fieldtype": "Check",
@@ -3166,9 +3166,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "No of Months",
-=======
+
    "label": "Enable Deferred Revenue",
 
    "length": 0,
@@ -3191,12 +3191,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "columns": 0,
    "fieldname": "deferred_expense_section",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3210,9 +3210,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Deferred Expense",
-=======
+
 
    "length": 0,
    "no_copy": 0,
@@ -3236,13 +3236,13 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "enable_deferred_expense",
    "fieldname": "deferred_expense_account",
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
-=======
+
    "depends_on": "enable_deferred_revenue",
    "fetch_if_empty": 0,
    "fieldname": "no_of_months",
@@ -3255,12 +3255,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Deferred Expense Account",
    "length": 0,
    "no_copy": 0,
    "options": "Account",
-=======
+
    "label": "No of Months",
    "length": 0,
    "no_copy": 0,
@@ -3283,12 +3283,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "fieldname": "enable_deferred_expense",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3302,9 +3302,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Enable Deferred Expense",
-=======
+
    "label": "Deferred Expense",
 
    "length": 0,
@@ -3329,12 +3329,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "column_break_88",
    "fieldtype": "Column Break",
    "hidden": 0,
    "ignore_user_permissions": 0,
-=======
+
    "depends_on": "enable_deferred_expense",
    "fetch_if_empty": 0,
    "fieldname": "deferred_expense_account",
@@ -3347,10 +3347,10 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Deferred Expense Account",
    "length": 0,
    "no_copy": 0,
@@ -3376,11 +3376,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "enable_deferred_expense",
    "fieldname": "no_of_months_exp",
    "fieldtype": "Int",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "enable_deferred_expense",
    "fieldtype": "Check",
@@ -3392,9 +3392,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "No of Months",
-=======
+
    "label": "Enable Deferred Expense",
 
    "length": 0,
@@ -3417,12 +3417,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "columns": 0,
    "fieldname": "customer_details",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3436,9 +3436,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Customer Details",
-=======
+
 
    "length": 0,
    "no_copy": 0,
@@ -3462,12 +3462,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "",
    "description": "",
    "fieldname": "customer_items",
    "fieldtype": "Table",
-=======
+
    "depends_on": "enable_deferred_expense",
    "fetch_if_empty": 0,
    "fieldname": "no_of_months_exp",
@@ -3480,12 +3480,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Customer Items",
    "length": 0,
    "no_copy": 0,
    "options": "Item Customer Detail",
-=======
+
    "label": "No of Months",
    "length": 0,
    "no_copy": 0,
@@ -3509,11 +3509,11 @@
    "allow_on_submit": 0,
    "bold": 0,
    "collapsible": 1,
-<<<<<<< HEAD
+
    "collapsible_depends_on": "taxes",
    "columns": 0,
    "fieldname": "item_tax_section_break",
-=======
+
    "columns": 0,
    "fetch_if_empty": 0,
    "fieldname": "customer_details",
@@ -3526,13 +3526,13 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Item Tax",
    "length": 0,
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-money",
-=======
+
    "label": "Customer Details",
    "length": 0,
    "no_copy": 0,
@@ -3557,10 +3557,10 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "description": "Will also apply for variants",
    "fieldname": "taxes",
-=======
+
    "depends_on": "",
    "description": "",
    "fetch_if_empty": 0,
@@ -3574,14 +3574,14 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Taxes",
    "length": 0,
    "no_copy": 0,
    "oldfieldname": "item_tax",
    "oldfieldtype": "Table",
    "options": "Item Tax",
-=======
+
    "label": "Customer Items",
    "length": 0,
    "no_copy": 0,
@@ -3607,9 +3607,9 @@
    "bold": 0,
    "collapsible": 1,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "inspection_criteria",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "item_tax_section_break",
 
@@ -3621,13 +3621,13 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Inspection Criteria",
    "length": 0,
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-search",
-=======
+
    "label": "Item Tax",
    "length": 0,
    "no_copy": 0,
@@ -3654,11 +3654,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "default": "",
    "fieldname": "inspection_required_before_purchase",
    "fieldtype": "Check",
-=======
+
    "description": "Will also apply for variants",
    "fetch_if_empty": 0,
    "fieldname": "taxes",
@@ -3671,14 +3671,14 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Inspection Required before Purchase",
    "length": 0,
    "no_copy": 0,
    "oldfieldname": "inspection_required",
    "oldfieldtype": "Select",
    "options": "",
-=======
+
    "label": "Taxes",
    "length": 0,
    "no_copy": 0,
@@ -3704,12 +3704,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "fieldname": "inspection_required_before_delivery",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3723,11 +3723,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Inspection Required before Delivery",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Inspection Criteria",
    "length": 0,
    "no_copy": 0,
@@ -3754,11 +3754,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval:(doc.inspection_required_before_purchase || doc.inspection_required_before_delivery)",
    "fieldname": "quality_inspection_template",
    "fieldtype": "Link",
-=======
+
    "default": "",
    "fetch_if_empty": 0,
    "fieldname": "inspection_required_before_purchase",
@@ -3771,7 +3771,7 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Quality Inspection Template",
    "length": 0,
    "no_copy": 0,
@@ -3779,7 +3779,7 @@
    "permlevel": 0,
    "precision": "",
    "print_hide": 1,
-=======
+
    "label": "Inspection Required before Purchase",
    "length": 0,
    "no_copy": 0,
@@ -3805,13 +3805,13 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "columns": 0,
    "depends_on": "is_stock_item",
    "fieldname": "manufacturing",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -3825,13 +3825,13 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Manufacturing",
    "length": 0,
    "no_copy": 0,
    "oldfieldtype": "Section Break",
    "options": "fa fa-cogs",
-=======
+
    "label": "Inspection Required before Delivery",
    "length": 0,
    "no_copy": 0,
@@ -3856,13 +3856,13 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "",
    "fieldname": "default_bom",
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
-=======
+
    "depends_on": "eval:(doc.inspection_required_before_purchase || doc.inspection_required_before_delivery)",
    "fetch_if_empty": 0,
    "fieldname": "quality_inspection_template",
@@ -3875,7 +3875,7 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Default BOM",
    "length": 0,
    "no_copy": 1,
@@ -3887,7 +3887,7 @@
    "print_hide": 0,
    "print_hide_if_no_value": 0,
    "read_only": 1,
-=======
+
    "label": "Quality Inspection Template",
    "length": 0,
    "no_copy": 0,
@@ -3911,14 +3911,14 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "default": "",
    "description": "If subcontracted to a vendor",
    "fieldname": "is_sub_contracted_item",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "depends_on": "is_stock_item",
@@ -3933,14 +3933,14 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Supply Raw Materials for Purchase",
    "length": 0,
    "no_copy": 0,
    "oldfieldname": "is_sub_contracted_item",
    "oldfieldtype": "Select",
    "options": "",
-=======
+
    "label": "Manufacturing",
    "length": 0,
    "no_copy": 0,
@@ -3967,12 +3967,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "column_break_74",
    "fieldtype": "Column Break",
    "hidden": 0,
    "ignore_user_permissions": 0,
-=======
+
    "depends_on": "",
    "fetch_if_empty": 0,
    "fieldname": "default_bom",
@@ -3985,10 +3985,10 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Default BOM",
    "length": 0,
    "no_copy": 1,
@@ -4000,9 +4000,9 @@
    "precision": "",
    "print_hide": 0,
    "print_hide_if_no_value": 0,
-<<<<<<< HEAD
+
    "read_only": 0,
-=======
+
    "read_only": 1,
 
    "remember_last_selected_value": 0,
@@ -4020,11 +4020,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "customer_code",
    "fieldtype": "Data",
    "hidden": 1,
-=======
+
    "default": "",
    "description": "If subcontracted to a vendor",
    "fetch_if_empty": 0,
@@ -4038,14 +4038,14 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Customer Code",
    "length": 0,
    "no_copy": 1,
    "permlevel": 0,
    "precision": "",
    "print_hide": 1,
-=======
+
    "label": "Supply Raw Materials for Purchase",
    "length": 0,
    "no_copy": 0,
@@ -4071,12 +4071,12 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "columns": 0,
    "fieldname": "website_section",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -4090,12 +4090,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website",
    "length": 0,
    "no_copy": 0,
    "options": "fa fa-globe",
-=======
+
    "length": 0,
    "no_copy": 0,
 
@@ -4119,12 +4119,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval:!doc.variant_of",
    "fieldname": "show_in_website",
    "fieldtype": "Check",
    "hidden": 0,
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "customer_code",
    "fieldtype": "Data",
@@ -4136,14 +4136,14 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Show in Website",
    "length": 0,
    "no_copy": 0,
    "permlevel": 0,
    "precision": "",
    "print_hide": 0,
-=======
+
    "label": "Customer Code",
    "length": 0,
    "no_copy": 1,
@@ -4166,13 +4166,13 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "depends_on": "variant_of",
    "fieldname": "show_variant_in_website",
    "fieldtype": "Check",
-=======
+
    "collapsible": 1,
    "columns": 0,
    "fetch_if_empty": 0,
@@ -4186,11 +4186,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Show in Website (Variant)",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Website",
    "length": 0,
    "no_copy": 0,
@@ -4216,11 +4216,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "fieldname": "route",
    "fieldtype": "Small Text",
-=======
+
    "depends_on": "eval:!doc.variant_of",
    "fetch_if_empty": 0,
    "fieldname": "show_in_website",
@@ -4233,11 +4233,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Route",
    "length": 0,
    "no_copy": 1,
-=======
+
    "label": "Show in Website",
    "length": 0,
    "no_copy": 0,
@@ -4250,9 +4250,9 @@
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
-<<<<<<< HEAD
+
    "search_index": 0,
-=======
+
    "search_index": 1,
 
    "set_only_once": 0,
@@ -4266,12 +4266,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "description": "Items with higher weightage will be shown higher",
    "fieldname": "weightage",
    "fieldtype": "Int",
-=======
+
    "depends_on": "variant_of",
    "fetch_if_empty": 0,
    "fieldname": "show_variant_in_website",
@@ -4284,9 +4284,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Weightage",
-=======
+
    "label": "Show in Website (Variant)",
 
    "length": 0,
@@ -4299,9 +4299,9 @@
    "remember_last_selected_value": 0,
    "report_hide": 0,
    "reqd": 0,
-<<<<<<< HEAD
+
    "search_index": 0,
-=======
+
    "search_index": 1,
 
    "set_only_once": 0,
@@ -4316,11 +4316,11 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
-<<<<<<< HEAD
+
    "description": "Show a slideshow at the top of the page",
    "fieldname": "slideshow",
    "fieldtype": "Link",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "route",
    "fieldtype": "Small Text",
@@ -4332,12 +4332,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Slideshow",
    "length": 0,
    "no_copy": 0,
    "options": "Website Slideshow",
-=======
+
    "label": "Route",
    "length": 0,
    "no_copy": 1,
@@ -4363,11 +4363,11 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
-<<<<<<< HEAD
+
    "description": "Item Image (if not slideshow)",
    "fieldname": "website_image",
    "fieldtype": "Attach",
-=======
+
    "description": "Items with higher weightage will be shown higher",
    "fetch_if_empty": 0,
    "fieldname": "weightage",
@@ -4380,12 +4380,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Image",
    "length": 0,
    "no_copy": 0,
    "options": "",
-=======
+
    "label": "Weightage",
    "length": 0,
    "no_copy": 0,
@@ -4410,10 +4410,10 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "thumbnail",
    "fieldtype": "Data",
-=======
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "description": "Show a slideshow at the top of the page",
    "fetch_if_empty": 0,
@@ -4427,11 +4427,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Thumbnail",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Slideshow",
    "length": 0,
    "no_copy": 0,
@@ -4441,9 +4441,9 @@
    "precision": "",
    "print_hide": 0,
    "print_hide_if_no_value": 0,
-<<<<<<< HEAD
+
    "read_only": 1,
-=======
+
    "read_only": 0,
 
    "remember_last_selected_value": 0,
@@ -4461,10 +4461,10 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "fieldname": "cb72",
    "fieldtype": "Column Break",
-=======
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "description": "Item Image (if not slideshow)",
    "fetch_if_empty": 0,
@@ -4478,10 +4478,10 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Image",
    "length": 0,
    "no_copy": 0,
@@ -4507,14 +4507,14 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "description": "Show \"In Stock\" or \"Not in Stock\" based on stock available in this warehouse.",
    "fieldname": "website_warehouse",
    "fieldtype": "Link",
    "hidden": 0,
    "ignore_user_permissions": 1,
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "thumbnail",
    "fieldtype": "Data",
@@ -4526,12 +4526,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Warehouse",
    "length": 0,
    "no_copy": 0,
    "options": "Warehouse",
-=======
+
    "label": "Thumbnail",
    "length": 0,
    "no_copy": 0,
@@ -4540,9 +4540,9 @@
    "precision": "",
    "print_hide": 0,
    "print_hide_if_no_value": 0,
-<<<<<<< HEAD
+
    "read_only": 0,
-=======
+
    "read_only": 1,
 
    "remember_last_selected_value": 0,
@@ -4560,12 +4560,12 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "description": "List this Item in multiple groups on the website.",
    "fieldname": "website_item_groups",
    "fieldtype": "Table",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "cb72",
    "fieldtype": "Column Break",
@@ -4577,12 +4577,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Item Groups",
    "length": 0,
    "no_copy": 0,
    "options": "Website Item Group",
-=======
+
    "length": 0,
    "no_copy": 0,
 
@@ -4607,12 +4607,12 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
-<<<<<<< HEAD
+
    "fieldname": "set_meta_tags",
    "fieldtype": "Button",
    "hidden": 0,
    "ignore_user_permissions": 0,
-=======
+
    "description": "Show \"In Stock\" or \"Not in Stock\" based on stock available in this warehouse.",
    "fetch_if_empty": 0,
    "fieldname": "website_warehouse",
@@ -4625,11 +4625,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Set Meta Tags",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Website Warehouse",
    "length": 0,
    "no_copy": 0,
@@ -4653,14 +4653,14 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 1,
    "collapsible_depends_on": "website_specifications",
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "fieldname": "sb72",
    "fieldtype": "Section Break",
-=======
+
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
@@ -4676,11 +4676,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Specifications",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Website Item Groups",
    "length": 0,
    "no_copy": 0,
@@ -4704,13 +4704,13 @@
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
    "bold": 0,
-<<<<<<< HEAD
+
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "fieldname": "copy_from_item_group",
    "fieldtype": "Button",
-=======
+
    "collapsible": 1,
    "collapsible_depends_on": "website_specifications",
    "columns": 0,
@@ -4726,9 +4726,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Copy From Item Group",
-=======
+
    "label": "Website Specifications",
 
    "length": 0,
@@ -4754,10 +4754,10 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
-<<<<<<< HEAD
+
    "fieldname": "website_specifications",
    "fieldtype": "Table",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "copy_from_item_group",
    "fieldtype": "Button",
@@ -4769,12 +4769,12 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Specifications",
    "length": 0,
    "no_copy": 0,
    "options": "Item Website Specification",
-=======
+
    "label": "Copy From Item Group",
    "length": 0,
    "no_copy": 0,
@@ -4800,10 +4800,10 @@
    "collapsible": 0,
    "columns": 0,
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
-<<<<<<< HEAD
+
    "fieldname": "web_long_description",
    "fieldtype": "Text Editor",
-=======
+
    "fetch_if_empty": 0,
    "fieldname": "website_specifications",
    "fieldtype": "Table",
@@ -4815,11 +4815,11 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Description",
    "length": 0,
    "no_copy": 0,
-=======
+
    "label": "Website Specifications",
    "length": 0,
    "no_copy": 0,
@@ -4845,11 +4845,11 @@
    "bold": 0,
    "collapsible": 0,
    "columns": 0,
-<<<<<<< HEAD
+
    "description": "You can use any valid Bootstrap 4 markup in this field. It will be shown on your Item Page.",
    "fieldname": "website_content",
    "fieldtype": "HTML Editor",
-=======
+
    "depends_on": "eval: doc.show_in_website || doc.show_variant_in_website",
    "fetch_if_empty": 0,
    "fieldname": "web_long_description",
@@ -4862,9 +4862,9 @@
    "in_global_search": 0,
    "in_list_view": 0,
    "in_standard_filter": 0,
-<<<<<<< HEAD
+
    "label": "Website Content",
-=======
+
    "label": "Website Description",
 
    "length": 0,
@@ -5100,9 +5100,9 @@
    "unique": 0
   }
  ],
-<<<<<<< HEAD
+
  "has_web_view": 1,
-=======
+
  "has_web_view": 0,
 
  "hide_heading": 0,
@@ -5116,15 +5116,15 @@
  "issingle": 0,
  "istable": 0,
  "max_attachments": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
  "modified": "2019-04-08 11:47:59.269724",
-=======
+
  "modified": "2019-05-09 18:47:30.475833",
 
-=======
+
  "modified": "2019-05-09 18:47:30.475833",
->>>>>>> upstream/develop
+
  "modified_by": "Administrator",
  "module": "Stock",
  "name": "Item",

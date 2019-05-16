@@ -7,11 +7,8 @@ from frappe import _
 from frappe.utils import flt, formatdate, now_datetime, getdate
 from datetime import date
 from six import iteritems
-<<<<<<< HEAD
 from erpnext.regional.doctype.gstr_3b_report.gstr_3b_report import get_period
-=======
 from erpnext.regional.india.utils import get_gst_accounts
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 
 def execute(filters=None):
 	return Gstr1Report(filters).run()
@@ -150,10 +147,7 @@ class Gstr1Report(object):
 					conditions += opts[1]
 
 		customers = frappe.get_all("Customer", filters={"disabled": 0})
-<<<<<<< HEAD
-=======
 
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 
 		if self.filters.get("type_of_business") ==  "B2B":
 			customers = frappe.get_all("Customer",

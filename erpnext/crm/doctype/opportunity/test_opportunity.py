@@ -47,10 +47,6 @@ class TestOpportunity(unittest.TestCase):
 		self.assertEqual(opp_doc.enquiry_from, "Lead")
 		self.assertEqual(frappe.db.get_value("Lead", opp_doc.lead, "email_id"),
 			new_lead_email_id)
-<<<<<<< HEAD
-=======
-
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 
 		# create new customer and create new contact against 'new.opportunity@example.com'
 		customer = make_customer(opp_doc.party_name).insert(ignore_permissions=True)

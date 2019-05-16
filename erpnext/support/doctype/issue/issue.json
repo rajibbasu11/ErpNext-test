@@ -121,11 +121,8 @@
    "collapsible": 0, 
    "columns": 0, 
    "fetch_if_empty": 0, 
-<<<<<<< HEAD
    "fieldname": "issue_type", 
-=======
    "fieldname": "customer", 
->>>>>>> develop
    "fieldtype": "Link", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
@@ -263,10 +260,7 @@
    "collapsible": 0, 
    "columns": 0, 
    "default": "Medium", 
-<<<<<<< HEAD
-=======
    "depends_on": "", 
->>>>>>> develop
    "fetch_if_empty": 0, 
    "fieldname": "priority", 
    "fieldtype": "Select", 
@@ -369,17 +363,14 @@
    "bold": 1, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "depends_on": "eval:doc.__islocal", 
    "fetch_if_empty": 0, 
    "fieldname": "raised_by", 
    "fieldtype": "Data", 
-=======
    "depends_on": "", 
    "fetch_if_empty": 0, 
    "fieldname": "description", 
    "fieldtype": "Text Editor", 
->>>>>>> develop
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -411,16 +402,13 @@
    "bold": 0, 
    "collapsible": 1, 
    "columns": 0, 
-<<<<<<< HEAD
    "fetch_if_empty": 0, 
    "fieldname": "email_account", 
    "fieldtype": "Link", 
-=======
    "depends_on": "eval: doc.service_level_agreement", 
    "fetch_if_empty": 0, 
    "fieldname": "service_level_section", 
    "fieldtype": "Section Break", 
->>>>>>> develop
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -452,11 +440,8 @@
    "collapsible": 0, 
    "columns": 0, 
    "fetch_if_empty": 0, 
-<<<<<<< HEAD
    "fieldname": "customer", 
-=======
    "fieldname": "service_level_agreement", 
->>>>>>> develop
    "fieldtype": "Link", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
@@ -523,13 +508,10 @@
    "collapsible": 1, 
    "columns": 0, 
    "fetch_if_empty": 0, 
-<<<<<<< HEAD
    "fieldname": "section_break_7", 
    "fieldtype": "Section Break", 
-=======
    "fieldname": "cb", 
    "fieldtype": "Column Break", 
->>>>>>> develop
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -595,16 +577,13 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "depends_on": "", 
    "fetch_if_empty": 0, 
    "fieldname": "description", 
    "fieldtype": "Text Editor", 
-=======
    "fetch_if_empty": 0, 
    "fieldname": "resolution_by", 
    "fieldtype": "Datetime", 
->>>>>>> develop
    "hidden": 0, 
    "ignore_user_permissions": 0, 
    "ignore_xss_filter": 0, 
@@ -834,8 +813,6 @@
    "collapsible": 0, 
    "columns": 0, 
    "fetch_if_empty": 0, 
-<<<<<<< HEAD
-=======
    "fieldname": "email_account", 
    "fieldtype": "Link", 
    "hidden": 0, 
@@ -870,7 +847,6 @@
    "collapsible": 0, 
    "columns": 0, 
    "fetch_if_empty": 0, 
->>>>>>> develop
    "fieldname": "column_break_16", 
    "fieldtype": "Column Break", 
    "hidden": 0, 
@@ -1309,13 +1285,10 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
-<<<<<<< HEAD
  "modified": "2019-04-24 23:09:48.711076", 
  "modified_by": "Administrator", 
-=======
  "modified": "2019-04-23 18:04:42.039620", 
  "modified_by": "Administrator",
->>>>>>> develop
  "module": "Support", 
  "name": "Issue", 
  "owner": "Administrator", 

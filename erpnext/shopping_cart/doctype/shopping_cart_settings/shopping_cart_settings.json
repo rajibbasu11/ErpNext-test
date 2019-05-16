@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
  "allow_copy": 0, 
  "allow_events_in_timeline": 0, 
  "allow_guest_to_view": 0, 
@@ -44,7 +43,6 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
  "allow_copy": 0,
  "allow_events_in_timeline": 0,
  "allow_guest_to_view": 0,
@@ -88,11 +86,9 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
    "unique": 0
   },
   {
-<<<<<<< HEAD
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -124,7 +120,6 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -156,11 +151,10 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -192,7 +186,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -224,11 +218,10 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -261,7 +254,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -293,11 +286,10 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -327,7 +319,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -357,11 +349,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -392,7 +384,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -422,11 +414,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -458,7 +450,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -488,11 +480,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -554,7 +546,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -585,11 +577,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -620,7 +612,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -649,11 +641,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -686,7 +678,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -717,11 +709,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -750,7 +742,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -782,11 +774,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -818,7 +810,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -846,11 +838,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -880,7 +872,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -911,11 +903,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -947,7 +939,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -976,11 +968,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -1011,7 +1003,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -1043,11 +1035,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -1081,7 +1073,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -1113,11 +1105,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -1147,7 +1139,7 @@
    "search_index": 0, 
    "set_only_once": 0, 
    "translatable": 0, 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -1180,11 +1172,11 @@
    "search_index": 0,
    "set_only_once": 0,
    "translatable": 0,
->>>>>>> develop
+
    "unique": 0
   },
   {
-<<<<<<< HEAD
+
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
@@ -1235,7 +1227,7 @@
  "module": "Shopping Cart", 
  "name": "Shopping Cart Settings", 
  "owner": "Administrator", 
-=======
+
    "allow_bulk_edit": 0,
    "allow_in_quick_entry": 0,
    "allow_on_submit": 0,
@@ -1316,7 +1308,7 @@
  "module": "Shopping Cart",
  "name": "Shopping Cart Settings",
  "owner": "Administrator",
->>>>>>> develop
+
  "permissions": [
   {
    "amend": 0,
@@ -1337,7 +1329,7 @@
    "submit": 0,
    "write": 1
   }
-<<<<<<< HEAD
+
  ], 
  "quick_entry": 0, 
  "read_only": 0, 
@@ -1346,7 +1338,7 @@
  "sort_order": "ASC", 
  "track_changes": 0, 
  "track_seen": 0, 
-=======
+
  ],
  "quick_entry": 0,
  "read_only": 0,
@@ -1355,6 +1347,6 @@
  "sort_order": "ASC",
  "track_changes": 0,
  "track_seen": 0,
->>>>>>> develop
+
  "track_views": 0
 }

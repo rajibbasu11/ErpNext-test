@@ -330,7 +330,6 @@
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
-<<<<<<< HEAD
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
@@ -364,8 +363,6 @@
    "allow_bulk_edit": 0, 
    "allow_in_quick_entry": 0, 
    "allow_on_submit": 0, 
-=======
->>>>>>> develop
    "bold": 1, 
    "collapsible": 0, 
    "columns": 0, 
@@ -1326,9 +1323,7 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "fetch_if_empty": 0, 
-=======
    "depends_on": "eval:doc.status===\"Lost\"", 
    "fieldname": "order_lost_reason", 
    "fieldtype": "Small Text", 
@@ -1361,7 +1356,6 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
->>>>>>> develop
    "fieldname": "column_break1", 
    "fieldtype": "Column Break", 
    "hidden": 0, 
@@ -1539,15 +1533,9 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 0, 
-<<<<<<< HEAD
-<<<<<<< HEAD
  "modified": "2019-04-25 18:55:43.874656", 
-=======
  "modified": "2018-12-29 18:38:37.270217", 
->>>>>>> develop
-=======
  "modified": "2019-05-11 19:22:33.533487", 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
  "modified_by": "Administrator", 
  "module": "CRM", 
  "name": "Opportunity", 

@@ -1187,9 +1187,7 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "fetch_if_empty": 0, 
-=======
    "fieldname": "pricing_rule_details", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1255,7 +1253,6 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
->>>>>>> develop
    "fieldname": "sec_break23", 
    "fieldtype": "Section Break", 
    "hidden": 0, 
@@ -1554,12 +1551,9 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "fetch_if_empty": 0, 
    "fieldname": "taxes_and_charges", 
-=======
    "fieldname": "tax_category", 
->>>>>>> develop
    "fieldtype": "Link", 
    "hidden": 0, 
    "ignore_user_permissions": 0, 
@@ -1688,9 +1682,7 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
-<<<<<<< HEAD
    "fetch_if_empty": 0, 
-=======
    "fieldname": "taxes_and_charges", 
    "fieldtype": "Link", 
    "hidden": 0, 
@@ -1725,7 +1717,6 @@
    "bold": 0, 
    "collapsible": 0, 
    "columns": 0, 
->>>>>>> develop
    "fieldname": "taxes", 
    "fieldtype": "Table", 
    "hidden": 0, 
@@ -3365,15 +3356,9 @@
  "istable": 0, 
  "max_attachments": 1, 
  "menu_index": 0, 
-<<<<<<< HEAD
-<<<<<<< HEAD
  "modified": "2019-04-25 15:26:21.983298", 
-=======
  "modified": "2019-02-13 01:00:21.545591", 
->>>>>>> develop
-=======
  "modified": "2019-05-11 19:26:50.735628", 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
  "modified_by": "Administrator", 
  "module": "Selling", 
  "name": "Quotation", 

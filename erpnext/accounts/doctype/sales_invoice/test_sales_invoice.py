@@ -18,12 +18,9 @@ from erpnext.accounts.doctype.account.test_account import get_inventory_account,
 from erpnext.controllers.taxes_and_totals import get_itemised_tax_breakup_data
 from erpnext.stock.doctype.item.test_item import create_item
 from six import iteritems
-<<<<<<< HEAD
 from erpnext.accounts.doctype.sales_invoice.sales_invoice import make_inter_company_transaction
-=======
 from erpnext.regional.india.utils import get_ewb_data
 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 class TestSalesInvoice(unittest.TestCase):
 	def make(self):
 		w = frappe.copy_doc(test_records[0])
@@ -1675,7 +1672,6 @@ class TestSalesInvoice(unittest.TestCase):
 			self.assertEqual(expected_gle[i][2], gle.credit)
 			self.assertEqual(getdate(expected_gle[i][3]), gle.posting_date)
 
-<<<<<<< HEAD
 	def test_inter_company_transaction(self):
 
 		if not frappe.db.exists("Customer", "_Test Internal Customer"):
@@ -1730,7 +1726,7 @@ class TestSalesInvoice(unittest.TestCase):
 
 		self.assertEqual(target_doc.company, "_Test Company 1")
 		self.assertEqual(target_doc.supplier, "_Test Internal Supplier")
-=======
+
 	def test_eway_bill_json(self):
 		if not frappe.db.exists('Address', '_Test Address for Eway bill-Billing'):
 			address = frappe.get_doc({
@@ -1834,7 +1830,6 @@ class TestSalesInvoice(unittest.TestCase):
 		self.assertEqual(data['billLists'][0]['vehicleNo'], 'KA12KA1234')
 		self.assertEqual(data['billLists'][0]['itemList'][0]['taxableAmount'], 60000)
 
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 
 def create_sales_invoice(**args):
 	si = frappe.new_doc("Sales Invoice")

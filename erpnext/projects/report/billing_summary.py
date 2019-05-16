@@ -56,16 +56,10 @@ def get_data(filters):
 		frappe.msgprint(_(" From Date can not be greater than To Date"))
 		return data
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	for entries in record:
-=======
 
 	for entries in record:
 
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
-=======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 	timesheets = get_timesheets(filters)
 
 	filters.from_date = frappe.utils.get_datetime(filters.from_date)
@@ -74,15 +68,10 @@ def get_data(filters):
 	timesheet_details = get_timesheet_details(filters, timesheets.keys())
 
 	for ts, ts_details in timesheet_details.items():
-<<<<<<< HEAD
 
 		total_hours = 0
 		total_billing_hours = 0
 		total_amount = 0
-<<<<<<< HEAD
-=======
-
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
 		entries_exists = False
 		timesheet_details = get_timesheet_details(filters, entries.name)
 
@@ -114,11 +103,9 @@ def get_data(filters):
 		if entries_exists:
 			data.append(row)
 			entries_exists = False
-=======
 		total_hours = 0
 		total_billing_hours = 0
 		total_amount = 0
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 
 		for row in ts_details:
 			from_time, to_time = filters.from_date, filters.to_date
@@ -148,13 +135,6 @@ def get_data(filters):
 				"amount": total_amount
 			})
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 8746444d79caedcc5e0c3ef8aefbc9a4e6b94905
-=======
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
 	return data
 
 def get_timesheets(filters):
@@ -202,8 +182,6 @@ def get_billable_and_total_duration(activity, start_time, end_time):
 		if activity_duration != activity.billing_hours:
 			billing_duration = activity_duration * activity.billing_hours / activity.hours
 
-<<<<<<< HEAD
 	return flt(activity_duration, 2), flt(billing_duration, 2)
-=======
 	return flt(activity_duration, 2), flt(billing_duration, 2)
->>>>>>> 0692e5eb78564b4070880a234c61a0382bccf082
+
